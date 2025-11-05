@@ -13,3 +13,5 @@ Below Table Link containing information about each sections in detail.
 - Generative AI and Amazon Bedrock
   - [GenAI Introduction](./section/gen-ai/genai-introduction.md)
     - What is Generative AI?, What is Foundation Model?, Generative Language Models, GenAI for Images
+  - [Amazon Bedrock](./section/gen-ai/amazon-bedrock.md)
+    - What is Amazon Bedrock?, Foundation Models, Fine-Tuning a Model, What is RAG (Retrieval-Augmented Generation)?, What is a Vector Database?, RAG vs Fine-Tuning Comparison, Amazon Bedrock Pricing
