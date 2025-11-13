@@ -1,5 +1,34 @@
 # AI and Machine Learning Overview
 
+- [AI and Machine Learning Overview](#ai-and-machine-learning-overview)
+  - [What is AI?](#what-is-ai)
+  - [AI Components](#ai-components)
+  - [What is Machine Learning (ML)?](#what-is-machine-learning-ml)
+  - [What is Deep Leaning(DL)?](#what-is-deep-leaningdl)
+    - [Neural Networks - how do they work?](#neural-networks---how-do-they-work)
+  - [What is Generative AI?](#what-is-generative-ai)
+  - [What is the Transformer Model? (LLM)](#what-is-the-transformer-model-llm)
+  - [Diffusion Models](#diffusion-models)
+  - [Multi-Modal Models](#multi-modal-models)
+  - [ML Terms You Need to Know](#ml-terms-you-need-to-know)
+  - [Training Data](#training-data)
+    - [Labeled Data](#labeled-data)
+    - [Unlabeled Data](#unlabeled-data)
+    - [Structured Data](#structured-data)
+    - [Unstructured Data](#unstructured-data)
+  - [Supervised Learning](#supervised-learning)
+    - [Regression](#regression)
+    - [Classification](#classification)
+    - [Training vs. Validation vs. Test Sets](#training-vs-validation-vs-test-sets)
+    - [Feature Engineering](#feature-engineering)
+      - [Feature Engineering on Structured Data](#feature-engineering-on-structured-data)
+      - [Feature Engineering on Unstructured Data](#feature-engineering-on-unstructured-data)
+  - [Unsupervised Learning](#unsupervised-learning)
+    - [Clustering Technique](#clustering-technique)
+    - [Association Rule Learning](#association-rule-learning)
+    - [Anomaly Detection](#anomaly-detection)
+  - [Semi-Supervised Learning](#semi-supervised-learning)
+
 ## What is AI?
 
 - Broad field focused on developing intelligent systems capable of performing tasks that typically require human intelligence
@@ -91,20 +120,15 @@
 - Nodes are **talking** to each other, by passing on (or not) data to the next layer
 - The math and parameters tuning behind it is beyond the level of this course
 - Neural networks may have billions of nodes
-
-#### Layers
-
 - **Input Layer**:
   - Receives raw input data
   - Each neuron represents one feature of input data
   - No processing occurs here
-
 - **Hidden Layers**:
   - Intermediate layers between input and output
-  - Multiple hidden layers create "deep" networks
+  - Multiple hidden layers create **deep** networks
   - Perform computations and extract features from input data
   - Different layers learn different levels of abstraction
-
 - **Output Layer**:
   - Final layer producing the prediction or classification
   - Structure depends on task:
@@ -164,3 +188,189 @@ based on input prompts
 - **WaveNet** – model to generate raw audio waveform, used in Speech Synthesis
 - **GAN (Generative Adversarial Network)** – models used to generate synthetic data such as images, videos or sounds that resemble the training data. Helpful for data augmentation
 - **XGBoost (Extreme Gradient Boosting)** – an implementation of gradient boosting
+
+## Training Data
+
+- Good training data is essential for building effective machine learning models
+- Poor quality data results in poor model performance
+- **Good** data must be defined appropriately for the specific use case
+- Training data selection and preparation is one of the most critical stages in building an effective model
+- There are several options to model our data, which will impact the types of algorithms we can use to train our models
+- **Labeled vs. Unlabeled Data**
+- **Structured vs. Unstructured Data**
+
+### Labeled Data
+
+- Consists of both input features and output labels
+- Each data point has an associated correct answer
+- **Example**: Dataset of animal images where each image is labeled as "dog" or "cat"
+  - Input feature: The image itself
+  - Output label: The animal type
+- Used for supervised learning
+- Algorithm learns to map inputs to known outputs by studying labeled examples
+- When correct answers are known and can be applied to new data
+- Labeling large datasets can be costly and time-consuming
+
+### Unlabeled Data
+
+- Includes only input features without any output labels
+- Raw data without associated correct answers
+- Example: Collection of images without labels indicating whether they are cats or dogs, etc...
+- Used for unsupervised learning
+- Algorithm must identify patterns or structures within the data itself (e.g., grouping similar images)
+
+### Structured Data
+
+- Organized in a defined format, typically rows and columns
+- Similar to a spreadsheet with clearly defined fields
+- Other type of structured data is Time Series Data, where data points are collected and recorded at successive points in time
+
+### Unstructured Data
+
+- Does not follow a specific format or structure
+- Often text-heavy or multimedia content without predefined organization
+- **Text Data**: Online articles, social media posts, customer reviews, long-form feedback, etc...
+- **Image Data**: Photos and visual content, consists of pixels without organized metadata
+- **Other Types**: Audio files and speech recordings, video content, free-form text documents,
+- Requires specialized algorithms to extract information
+
+## Supervised Learning
+
+- Learn a mapping function that can predict the output for new, unseen input data
+- Requires labeled data (input features + output labels)
+- Very powerful for prediction tasks
+- Obtaining labeled data for millions of data points can be difficult and costly
+- Trains model on labeled examples so it learns patterns connecting inputs to outputs
+
+### Regression
+
+- Predict continuous numeric values based on input data
+- Continuous variable that can take any value within a range
+- **Examples**:
+  - Predicting house prices based on size, location, features
+  - Predicting stock prices
+  - Weather forecasting (temperature, rainfall)
+  - Predicting customer spending behavior
+
+### Classification
+
+- Used to predict categorical labels of input data
+- Output variable is a discrete variable representing specific categories or classes
+- Use cases: scenarios where decisions or predictions need to be made between distinct categories (fraud, image classification, customer retention, diagnostics)
+- Types of Classification
+  - **Binary Classification**:
+    - Two possible classes
+    - Example: Spam/Not spam, Fraud/Not fraud
+    - Yes/No decisions
+  - **Multiclass Classification**:
+    - More than two classes
+    - Example: Animals (cat, dog, giraffe)
+    - Example: Image recognition (0-9 digits)
+  - **Multi-label Classification**:
+    - Multiple labels per instance
+    - Example: Movie can be both "Action" and "Comedy"
+    - Example: Document tagged as both "urgent" and "financial"
+- **Key algorithm**: K-nearest neighbors (k-NN) model
+
+### Training vs. Validation vs. Test Sets
+
+- **Training Set**: 60-80% of data
+  - Used to train the model
+  - Model learns patterns from this data
+  - Most important for learning
+- **Validation Set**: 10-20% of data
+  - Used to tune model parameters
+  - Validate performance during training
+  - Helps prevent overfitting
+  - Test different configurations
+- **Test Set**: 10-20% of data
+  - Used to evaluate final model accuracy
+  - Never seen by model during training
+  - Represents unseen data performance
+  - Final evaluation metric
+
+### Feature Engineering
+
+- Process of using domain knowledge to select and transform raw data into meaningful features
+- Helps enhancing the performance of machine learning models
+- Techniques
+  - **Feature Extraction**:
+    - extract useful information from raw data
+    - Example: Calculate age from birth date, extract hour from timestamp, calculate BMI from height and weight
+  - **Feature Selection**:
+    - Choose subset of relevant features
+    - Remove redundant or irrelevant features
+    - Improve model efficiency and interpretability
+    - Example: Select important predictors in regression model
+  - **Feature Transformation**:
+    - Transform data for better model performance
+    - such as normalizing numerical data
+
+#### Feature Engineering on Structured Data
+
+- Structured Data (Tabular Data)
+- **Example**: Predicting house prices based on features like size, location, and number of rooms
+- **Feature Engineering Tasks**
+  - **Feature Creation** – deriving new features like “price per square foot”
+  - **Feature Selection** – identifying and retaining important features such as location or number of bedrooms
+  - **Feature Transformation** – normalizing features to ensure they are on a similar scale, which helps algorithms like gradient descent converge faster
+
+#### Feature Engineering on Unstructured Data
+
+- Unstructured Data (Text, Images, Audio, Video)
+- Examples: sentiment analysis of customer reviews
+- **Feature Engineering Tasks**
+  - Text Data – converting text into numerical features using techniques like TF-IDF or word embeddings
+  - Image Data – extracting features from images using techniques like edge detection, or textures using techniques like convolutional neural networks (CNNs)
+
+## Unsupervised Learning
+
+- The goal is to discover inherent patterns, structures, or relationships within the input data
+- The machine must uncover and create the groups itself, but humans still put labels on the output groups
+- **Common Techniques**: Clustering, association rule learning, anomaly detection
+- Clustering use cases: customer segmentation, targeted marketing, recommender systems
+- Feature Engineering can help improve the quality of the training
+
+### Clustering Technique
+
+- Groups similar data points together into clusters based on their features
+- Find natural groupings in data without predefined labels
+- Algorithm analyzes similarity between data points and groups them accordingly
+- **Example**: Customer Segmentation
+  - **Scenario**: e-commerce company wants to segment its customers into groups based on their purchasing behaviors
+  - **Data**: A dataset containing customer purchasing history
+  - **Goal**: Identify distinct groups of customers based on their purchasing behavior
+  - **Technique**: K-means Clustering
+- **Outcome**: Company can target each segment with different marketing strategies
+
+### Association Rule Learning
+
+- The goal is to understand which products are frequently bought together
+- Market basket analysis in retail environments
+- Optimize product placement and joint promotions
+- **Example**:
+  - **Scenario**: supermarket wants to understand which products are frequently bought together
+  - **Data**: A dataset containing customer purchasing history
+  - **Goal**: Identify which products are frequently bought together
+  - **Technique**: Apriori algorithm
+- **Outcome**: Supermarket can optimize product placement and joint promotions to increase sales
+
+### Anomaly Detection
+
+- The goal is to identify data points that deviate significantly from normal patterns
+- Flag unusual or suspicious transactions/events
+- Fraud detection, security monitoring
+- **Example**:
+  - **Scenario**: credit card company wants to detect fraudulent transactions
+  - **Data**: A dataset containing credit card transactions
+  - **Goal**: Identify fraudulent transactions
+  - **Technique**: Isolation Forest
+- **Outcome**: Credit card company can detect fraudulent transactions and prevent fraud
+
+## Semi-Supervised Learning
+
+- Hybrid approach combining small amounts of labeled data with large amounts of unlabeled data
+- Leverage both labeled and unlabeled data to build effective models
+- After that, the partially trained algorithm itself labels the unlabeled data
+- This is called pseudo-labeling
+- The model is then re-trained on the resulting data mix without being explicitly programmed
