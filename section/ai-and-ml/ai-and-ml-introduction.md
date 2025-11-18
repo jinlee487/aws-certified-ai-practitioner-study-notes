@@ -28,6 +28,10 @@
     - [Association Rule Learning](#association-rule-learning)
     - [Anomaly Detection](#anomaly-detection)
   - [Semi-Supervised Learning](#semi-supervised-learning)
+  - [Self-Supervised Learning](#self-supervised-learning)
+  - [Reinforcement Learning (RL)](#reinforcement-learning-rl)
+    - [How Does Reinforcement Learning Work?](#how-does-reinforcement-learning-work)
+    - [Applications of Reinforcement Learning](#applications-of-reinforcement-learning)
 
 ## What is AI?
 
@@ -374,3 +378,49 @@ based on input prompts
 - After that, the partially trained algorithm itself labels the unlabeled data
 - This is called pseudo-labeling
 - The model is then re-trained on the resulting data mix without being explicitly programmed
+
+## Self-Supervised Learning
+
+- Model learns from large amounts of unlabeled data by generating its own pseudo-labels
+- Data essentially labels itself without requiring human annotation
+- Addresses the problem of expensive manual data labeling
+- Widely used in NLP (to create the BERT and GPT models for example) and in image recognition tasks
+- **Difference from Unsupervised**: Produces labels from data itself; uses those labels for supervised tasks
+- Enables advanced models like GPT without costly human-labeled datasets
+- How It Works
+  - **Unlabeled Data**: Start with large amounts of raw, unlabeled data (text, images, audio)
+  - **Pseudo-Labels**: Model automatically generates labels from the data itself
+  - **Self-Training**: Model learns by predicting these auto-generated labels
+  - **Knowledge Transfer**: Learned knowledge transferred to downstream supervised tasks
+
+## Reinforcement Learning (RL)
+
+- Machine learning type where an agent learns to make decisions by performing actions in an environment
+- Maximize cumulative reward over time
+- Agent learns through trial and error, receiving feedback (rewards/penalties)
+- Iterative process of observation, action, reward, and policy update
+- Like training a robot to find its way through a maze
+- Key Concepts
+  - **Agent** - Learner or decision maker(Example: Robot trying to navigate a maze)
+  - **Environment** - External system the agent interacts with(Example: The maze itself)
+  - **Action** - Choices made by the agent(Example: Moving up, down, left, or right)
+  - **Reward** - Feedback from the environment based on agent action
+  - **State** - Current situation of the environment(Example: Robot's current position)
+  - **Policy** - Strategy to determine action based on state(Example: Move up if the position is not a wall)
+
+### How Does Reinforcement Learning Work?
+
+- **Learning Process**
+  - The Agent observes the current State of the environment
+  - It selects an Action based on its Policy
+  - The environment transitions to a new State and provides a Reward
+  - The Agent updates its Policy to improve future decisions
+- **Goal**: Maximize cumulative reward over time
+
+### Applications of Reinforcement Learning
+
+- **Gaming** – teaching AI to play complex games (e.g., Chess, Go)
+- **Robotics** – navigating and manipulating objects in dynamic environments
+- **Finance** – portfolio management and trading strategies
+- **Healthcare** – optimizing treatment plans
+- **Autonomous Vehicles** – path planning and decision-making
