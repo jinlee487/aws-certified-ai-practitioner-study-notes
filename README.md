@@ -19,3 +19,5 @@ Below Table Link containing information about each sections in detail.
     - What is Prompt Engineering?, Negative Prompting, Prompt Performance Optimization, Prompt Latency, Prompt Engineering Techniques, Prompt Templates
   - [Amazon Q](./section/gen-ai/amazon-q.md)
     - Introduction to Amazon Q, Amazon Q Business, Amazon Q Apps, Amazon Q Developer
+  - [AI and Machine Learning Overview](./section/ai-and-ml/ai-and-ml-introduction.md)
+    - What is AI?, AI Components, What is Machine Learning (ML)?, What is Deep Leaning(DL)?, What is Generative AI?, What is the Transformer Model? (LLM), Diffusion Models, Multi-Modal Models, Training Data, Supervised Learning, Unsupervised Learning, Semi-Supervised Learning, Self-Supervised Learning, Reinforcement Learning (RL), What is RLHF?, Model Fit, Bias and Variance, Model Evaluation Metrics, Confusion Matrix, Key Classification Metrics, AUC-ROC - Area under the curve-receiver operator curve, Regression Metrics, Metrics for Evaluating LLMs, Inferencing, Phases of a Machine Learning Project, Hyperparameter Tuning, Important Hyperparameters, What to Do If the Model Is Overfitting?

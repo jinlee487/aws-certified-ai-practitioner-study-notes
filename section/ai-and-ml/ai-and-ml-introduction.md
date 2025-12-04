@@ -32,6 +32,22 @@
   - [Reinforcement Learning (RL)](#reinforcement-learning-rl)
     - [How Does Reinforcement Learning Work?](#how-does-reinforcement-learning-work)
     - [Applications of Reinforcement Learning](#applications-of-reinforcement-learning)
+  - [What is RLHF?](#what-is-rlhf)
+    - [How does RLHF work?](#how-does-rlhf-work)
+  - [Model Fit](#model-fit)
+  - [Bias and Variance](#bias-and-variance)
+  - [Model Evaluation Metrics](#model-evaluation-metrics)
+    - [Confusion Matrix](#confusion-matrix)
+    - [Key Classification Metrics](#key-classification-metrics)
+    - [AUC-ROC - Area under the curve-receiver operator curve](#auc-roc---area-under-the-curve-receiver-operator-curve)
+    - [Regression Metrics](#regression-metrics)
+    - [Metrics for Evaluating LLMs](#metrics-for-evaluating-llms)
+  - [Inferencing](#inferencing)
+    - [Inferencing at the Edge](#inferencing-at-the-edge)
+  - [Phases of a Machine Learning Project](#phases-of-a-machine-learning-project)
+  - [Hyperparameter Tuning](#hyperparameter-tuning)
+    - [Important Hyperparameters](#important-hyperparameters)
+    - [What to Do If the Model Is Overfitting?](#what-to-do-if-the-model-is-overfitting)
 
 ## What is AI?
 
@@ -424,3 +440,277 @@ based on input prompts
 - **Finance** – portfolio management and trading strategies
 - **Healthcare** – optimizing treatment plans
 - **Autonomous Vehicles** – path planning and decision-making
+
+## What is RLHF?
+
+- Reinforcement Learning from Human Feedback (RLHF)
+- Utilize human feedback to help ML models self-learn more efficiently
+- Better align models with human goals, wants, and needs
+- Human feedback incorporated directly into reward function
+- Widely used in generative AI and large language models (LLMs)
+- Significantly enhances model performance
+- RLHF incorporates human feedback in the reward function, to be more aligned with human goals, wants and needs
+  - First, the model's responses are compared to human's responses
+  - Then, a human assesses the quality of the model's responses
+- Example: grading text translations from “technically correct” to “human”
+
+### How does RLHF work?
+
+- Step 1: Data Collection
+  - Collect human-generated prompts
+  - Create ideal/human responses for each prompt
+  - **Example Prompt**: "Where is the location of the HR department in Boston?"
+- Step 2: Supervised fine-tuning of a language model
+  - Fine-tune an existing model with internal knowledge
+  - Then the model creates responses for the human-generated prompts
+  - Responses are mathematically compared to human-generated answers
+- Step 3: Build Separate Reward Model
+  - Humans see two different model responses
+  - Humans indicate which response they prefer
+  - Reward model learns to fit human preferences
+  - Automatically understands how humans choose between responses
+- Step 4: Reinforcement Learning Optimization
+  - Use the reward model as a reward function for RL
+  - Fully automated because human feedback already embedded
+
+![RLHF Workflow](../../images/RLHF.jpg)
+
+**Source**: <https://aws.amazon.com/what-is/reinforcement-learning-from-human-feedback/>
+
+## Model Fit
+
+- In case our model has a bad performance, we need to take a look at the model fit
+- **Overfitting**:
+  - The model performs very well on the training data
+  - It does not perform well on the evaluation data
+- **Underfitting**:
+  - The model performs poorly on the training data
+  - Could be a problem of having a model that is too simple or the data has poor features
+- **Balanced**:
+  - Neither overfitting or underfitting
+  - The model performs well on the training and evaluation data
+
+## Bias and Variance
+
+- **Bias:**
+  - Difference or error between the predicted and actual value
+  - Occurs due to the wrong choice in the ML process
+  - High Bias:
+    - The model des not closely match the training data
+    - Example: linear regression function on a non-linear dataset
+    - Considered as underfitting
+  - Reducing Bias:
+    - Use a more complex model
+    - Increase the number of features
+- **Variance:**
+  - Represents how much the performance of a model changes if trained on a different dataset which has a similar distribution
+  - High Variance:
+    - The model is very sensitive to changes in the training data
+    - This is the case when we face overfitting: performs well on training data, but poorly on unseen test data
+  - Reducing variance:
+    - Feature selection: use less, more important features
+    - Split data into training and test sets multiple times
+
+## Model Evaluation Metrics
+
+### Confusion Matrix
+
+- A confusion matrix can help understand the more nuanced results of a model
+- Binary confusion matrix:
+
+|               | Actual YES      | Actual NO       |
+| ------------- | --------------- | --------------- |
+| Predicted YES | TRUE POSITIVES  | FALSE POSITIVES |
+| Predicted NO  | FALSE NEGATIVES | TRUE NEGATIVES  |
+
+- **True Positives (TP)**: Predicted positive, actually positive (Correct!)
+- **False Positives (FP)**: Predicted positive, actually negative (Wrong!)
+- **True Negatives (TN)**: Predicted negative, actually negative (Correct!)
+- **False Negatives (FN)**: Predicted negative, actually positive (Wrong!)
+
+### Key Classification Metrics
+
+- **Measuring models:**
+  - **Accuracy**: **(TRUE POSITIVES + TRUE NEGATIVES) / (TRUE POSITIVES + FALSE POSITIVES + TRUE NEGATIVES + FALSE NEGATIVES)**
+    - Measures the fraction of correct predictions; the range is 0 to 1
+    - A larger value indicates better predictive accuracy
+  - **Recall**: **TRUE POSITIVES / (TRUE POSITIVES + FALSE NEGATIVES)**
+    - AKA Sensitivity, True Positive rate, Completeness
+    - It is the percent of positive rightly predicted
+    - It is a good choice when we care about the false negatives, ex. fraud detection
+  - **Precision**: **TRUE POSITIVES / (TRUE POSITIVES + FALSE POSITIVES)**
+    - AKA Correct Positives
+    - It is the percent of relevant results
+    - It is a good choice when we care about false positives, ex. medical screening, drug testing
+  - **Other metrics:**
+    - **Specificity**: **TRUE NEGATIVES / (TRUE NEGATIVES + FALSE POSITIVES)** (True negative rate)
+    - **F1 score:**
+      - **2 * TRUE POSITIVES / 2 * TRUE POSITIVES + FALSE POSITIVES + FALSE NEGATIVES**
+      - **2 * (Precision * Recall) / (Precision + Recall)**
+      - It is the harmonic mean of precision and sensitivity
+      - Good choice when we care about precision and recall
+      - **Best for**: Imbalanced datasets where you need balance between precision and recall
+    - **RMSE - Root mean squared error**
+      - It is used for accuracy measurement
+      - It only cares about right and wrong answers
+
+### AUC-ROC - Area under the curve-receiver operator curve
+
+- ROC Curve - Receiver Operating Characteristic Curve
+  - It is a plot of true positive rate (sensitivity/recall) vs. false positive rate (Specificity) at various threshold settings
+- Points above the diagonal represent good classification (better than random)
+  - The ideal curve would be a point in the upper-left corner
+  - The more it's "bent" towards upper-left, the better
+- AUC: the area under ROC curve - Area Under the Curve
+  - Equal to probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative instance
+  - ROC AUC of 0.5 is useless classifier, 1.0 is perfect
+  - Commonly used metric for comparing classifiers
+- Example of usage of Confusion Matrix with measuring models: <https://aws.amazon.com/blogs/machine-learning/predicting-customer-churn-with-amazon-machine-learning/>
+- **Best for**:
+  - Comparing different models
+  - Choosing optimal classification thresholds
+  - Imbalanced datasets (more meaningful than accuracy)
+
+### Regression Metrics
+
+- MAE, MAPE, RMSE, R² (R Squared) are used for evaluating models that predict a continuous value (i.e., regressions)
+- Example: Imagine you’re trying to predict how well students do on a test based on
+how many hours they study.
+- Metrics used measure the quality of a regression model
+- MAE (Mean Absolute Error): measures the average magnitude of errors between the predicted values and the actual values.
+- MAPE (Mean Absolute Percentage Error): used to assess the accuracy of a predictive model by calculating the average percentage error between the predicted values and the actual values. MAPE expresses the error as a percentage, making it easier to interpret across different scales
+- RMSE (Root Mean Squared Error): measures the average magnitude of the error between the predicted values and the actual values, with a higher emphasis on larger errors
+- R Squared(R²): explains variance in our model. R² close to 1 means predictions are good
+  - If R² is 0.8, this means that 80% of the changes in test scores can be explained by how much
+students studied, and the remaining 20% is due to other factors like natural ability or luck
+
+### Metrics for Evaluating LLMs
+
+- Perplexity loss: measures how well the model can predict the next word in a sequence of text
+- Recall-Oriented Understudy for Gisting Evaluation (ROUGE): set of metrics used in the field of natural language processing to evaluate the quality of machine-generated text
+- There are several variants of ROUGE metrics:
+  - ROUGE-1, ROUGE-2, ROUGE-N: primary ROUGE metric, measures the overlap of n-grams between the system-generated and reference texts
+  - ROUGE-L: calculates the longest common subsequence between the system-generated text and the reference text
+  - ROUGE-L-Sum: used mainly to evaluate summarization systems. Takes into account the order of words in the text, which is important in text summarization tasks
+
+## Inferencing
+
+- Inferencing is when a model makes predictions on new data
+- Types of inferencing:
+  - Real Time
+    - Computers have to make decisions quickly as data arrives
+    - Speed is preferred over perfect accuracy
+    - Example: chatbots
+  - Batch
+    - Large amount of data that is being analyzed all at once
+    - Often used for data analysis and reporting
+    - Speed of the results is usually not a concern, and accuracy is
+    - Example: predicting customer behavior
+
+### Inferencing at the Edge
+
+- Edge devices are usually devices with less computing power that are close to where the data is generated, in places where internet connections can be limited
+- Example: a chatbot that is running on a phone
+- **Small Language Model (SLM)** on the edge device
+  - Very low latency
+  - Low compute footprint
+  - Offline capability, local inference
+- **Large Language Model (LLM)** on a remote server
+  - More powerful model
+  - Higher latency
+  - Must be online to be accessed
+
+## Phases of a Machine Learning Project
+
+- **Define Business Goals**
+  - Identify the business problem, expected value, and success criteria.
+  - Set clear **KPIs (Key Performance Indicators)** to measure success.
+  - Stakeholders align on goals, budget, data availability, and constraints.
+- **Frame the ML Problem**
+  - Convert the business problem into a **machine learning task** (classification, regression, etc.).
+  - Validate whether ML is the right solution.
+  - Collaboration between **data scientists, data engineers, ML architects, and domain experts (SMEs).**
+- **Data Processing**
+  - Collect, clean, and integrate data into a usable, centralized form.
+  - Perform **data preprocessing** (handling missing values, encoding, scaling).
+  - Use **data visualization** to understand structure, trends, and issues.
+  - **Feature Engineering:** create, transform, and select important input variables.
+- **Exploratory Data Analysis (EDA)**
+  - Explore patterns and relationships using charts, plots, and summaries.
+  - Create a **correlation matrix** to identify highly related features and potential predictors.
+  - Helps decide which features matter and which can be removed.
+- **Model Development**
+  - Train multiple models, tune hyperparameters, and compare performance.
+  - Evaluate using appropriate metrics (accuracy, F1, AUC, RMSE, etc.).
+  - Iterative process: try new features, fix data issues, and improve model quality.
+- **Retraining (Model Improvement)**
+  - Revisit data quality, feature selection, and hyperparameters.
+  - Add new data or features if performance drops.
+  - Improve robustness and reduce bias or drift.
+- **Deployment**
+  - Deploy the model once performance meets KPIs.
+  - Choose a deployment strategy:
+    - Real-time, batch, serverless, asynchronous, on-premise, etc.
+  - Model becomes available for predictions (inference).
+- **Monitoring**
+  - Track model performance, data quality, latency, and resource usage.
+  - Detect early signs of **model drift**, inaccuracies, or system failures.
+  - Enable logging, alerts, and diagnostics to debug issues.
+- **Continuous Iteration**
+  - ML lifecycle is ongoing: update model as new data arrives.
+  - Business goals or requirements may evolve.
+  - Continuous iteration keeps the model **accurate, stable, and relevant** over time.
+
+![Phases of a Machine Learning Project](../../images/phases-of-machine-learning-project.png)
+
+## Hyperparameter Tuning
+
+- **What are Hyperparameters?**
+  - Settings that define **how a model learns** and the **structure of the model**.
+  - They are **set before training starts**.
+  - Examples include:
+    - Learning rate
+    - Batch size
+    - Number of epochs
+    - Regularization strength
+- **What is Hyperparameter Tuning?**
+  - The process of finding the **best combination of hyperparameter values** to maximize model performance.
+  - Helps to:
+    - Improve accuracy
+    - Reduce overfitting
+    - Increase generalization to unseen data
+- **How Do We Tune Hyperparameters?**
+  - **Grid Search** – tries all possible combinations
+  - **Random Search** – samples random combinations
+  - **Automated Tuning Services** – e.g., **AWS SageMaker Automatic Model Tuning (AMT)**
+
+### Important Hyperparameters
+
+- **Learning Rate**
+  - Controls the size of the steps when updating model weights.
+  - **High learning rate:** faster but may overshoot the optimum.
+  - **Low learning rate:** slower but more stable and precise.
+- **Batch Size**
+  - Number of samples processed before the model updates its weights.
+  - **Small batch:** more stable learning, slower.
+  - **Large batch:** faster but may be less stable.
+- **Number of Epochs**
+  - Total number of times the model trains over the entire dataset.
+  - **Too few:** underfitting.
+  - **Too many:** overfitting.
+- **Regularization**
+  - Helps balance between simple vs. complex models.
+  - **Increase regularization → reduces overfitting** by penalizing overly complex patterns.
+
+### What to Do If the Model Is Overfitting?
+
+- The model performs **very well on training data** but poorly on new, unseen data.
+- **It occurs due to:**
+  - Training data size is too small and does not represent all possible input values
+  - Training too long on the same dataset
+  - Model complexity is high and learns from the **noise** within the training data
+- **How to Reduce Overfitting**
+  - Increase the size or diversity of the training data
+  - Apply **early stopping**
+  - Use **data augmentation**(to increase diversity in the dataset)
+  - Adjust hyperparameters(but you can’t “add” them)
