@@ -25,12 +25,19 @@ Below Table Link containing information about each sections in detail.
     - [Introduction of AWS Managed AI Services](./section/aws-managed-ai-services/introduction-of-aws-managed-ai-services.md)
       - Why Use AWS AI Managed Services?, Examples of AWS AI Managed Services,
     - [Amazon Comprehend](./section/aws-managed-ai-services/aws-comprehend.md)
-      - Overview, Why Use Amazon Comprehend?, Custom Classification, Named Entity Recognition (NER), Custom Entity Recognition, Amazon Comprehend Medical
+      - Amazon Comprehend Overview, Why Use Amazon Comprehend?, Custom Classification, Named Entity Recognition (NER), Custom Entity Recognition, Amazon Comprehend Medical
     - [Amazon Translate](./section/aws-managed-ai-services/aws-translate.md)
-      - Overview
+      - Amazon Translate Overview
     - [Amazon Transcribe](./section/aws-managed-ai-services/aws-transcribe.md)
-      - Overview, Improving Accuracy, Toxicity Detection, Amazon Transcribe Medical, Use Cases
+      - Amazon Transcribe Overview, Improving Accuracy, Toxicity Detection, Amazon Transcribe Medical, Use Cases
     - [Amazon Polly](./section/aws-managed-ai-services/aws-polly.md)
       - Overview, Lexicons, SSML format, Voice engine, Speech Marks
     - [Amazon Rekognition](./section/aws-managed-ai-services/aws-rekognition.md)
-      - Overview, Recognition Custom Labels, Content Moderation
+      - Amazon Rekognition Overview, Recognition Custom Labels, Content Moderation
+    - [Amazon Lex](./section/aws-managed-ai-services/aws-lex.md)
+      - Amazon Lex Overview, Workflow
+    - [Amazon Personalize](./section/aws-managed-ai-services/aws-personalize.md)
+    - [Amazon Textract](./section/aws-managed-ai-services/aws-textract.md)
+      - Amazon Textract Overview
+    - [Amazon Kendra](./section/aws-managed-ai-services/aws-kendra.md)
+      - Amazon Kendra Overview, Key Concepts
