@@ -41,3 +41,9 @@ Below Table Link containing information about each sections in detail.
       - Amazon Textract Overview
     - [Amazon Kendra](./section/aws-managed-ai-services/aws-kendra.md)
       - Amazon Kendra Overview, Key Concepts
+    - [Amazon Mechanical Turk](./section/aws-managed-ai-services/aws-mechanical-turk.md)
+      - Amazon Mechanical Turk Overview
+    - [Amazon Augmented AI (A2I)](./section/aws-managed-ai-services/aws-augmented-ai.md)
+      - Amazon Augmented AI (A2I) Overview
+    - [Hardware for AI](./section/aws-managed-ai-services/ai-hardware.md)
+      - Amazon EC2, Amazon's Hardware for AI

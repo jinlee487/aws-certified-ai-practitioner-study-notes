@@ -16,3 +16,8 @@
 - Slots specify extra information needed by the intent (e.g., pizza size, toppings, crust type, when to deliver, etc.)
 - Lambda functions return the response to Lex(makes the API call to the external service and orders the pizza)
 - Lex returns the response to the user (e.g., "Your pizza is on the way")
+
+**Example Workflow:**
+
+![Lex Workflow](../../images/aws-lex.png)
+[**Source**](https://aws.amazon.com/blogs/machine-learning/enhance-amazon-connect-and-lex-with-generative-ai-capabilities/)

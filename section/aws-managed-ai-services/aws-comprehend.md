@@ -34,6 +34,11 @@
       - Organize large document collections by theme
       - Discover topics without manual categorization
 
+**Example Workflow:**
+
+![Comprehend Workflow](../../images/aws-comprehend.jpg)
+[**Source**](https://aws.amazon.com/jp/blogs/news/quickly-build-high-accuracy-generative-ai-applications-on-enterprise-data-using-amazon-kendra-langchain-and-large-language-models/)
+
 ## Why Use Amazon Comprehend?
 
 - **Fully Managed**: No infrastructure to maintain
@@ -72,7 +77,18 @@
   - Can understand physician's notes
   - Can discharge summaries
   - Can understand test results and case notes
-- Uses NLP to detect Protected Health Information (PHI)
+- **Uses NLP to detect Protected Health Information (PHI)**
 - We can store input documents in Amazon S3
 - Input data can be analyzed in real-time with the help of Kinesis Data Firehose
 - We can use Amazon Transcribe to transcribe patient narratives into text that can be analyzed by Comprehend Medical
+
+**Example Workflow:**
+
+**Input Text:**
+
+![Comprehend Medical Input Text](../../images/comprehend-medical-input-text.png)
+
+**Output Entities:**
+
+![Comprehend Medical Entities](../../images/comprehend-medical-entities.png)
+[**Source**](https://aws.amazon.com/blogs/aws/new-amazon-comprehend-medical-adds-ontology-linking/)

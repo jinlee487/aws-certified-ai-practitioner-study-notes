@@ -18,3 +18,8 @@
 - We configure Kendra to synchronize a data source with an index based on a **schedule**. This should keep the index current
 - **Documents**: can be structured (FAQs) and unstructured (HTML, PDF, etc.)
 - Index Document → Kendra(knowledge index powered by ML) → User Question → Kendra → Answer
+
+**Example Workflow:**
+
+![Kendra Workflow](../../images/aws-kendra.png)
+[**Source**](https://aws.amazon.com/jp/blogs/news/quickly-build-high-accuracy-generative-ai-applications-on-enterprise-data-using-amazon-kendra-langchain-and-large-language-models/)

@@ -1,0 +1,14 @@
+# Amazon Augmented AI (A2I)
+
+- Human review of ML predictions
+- Human workers can be our own employees, over 500k AWS contractors or can access the Mechanical Turk workforce of vendors
+- Predictions with high confidence are returned immediately, while low confidence predictions are sent for human review.
+- Reviewed predictions are stored and fed back into the model to improve its quality.
+- Some vendors are pre-screened for confidentiality requirements
+- We can builds workflows for reviewing low-confidence predictions
+- It is integrated into Amazon Textract and Rekognition
+- Integrates with SageMaker
+- Similar to SageMaker Ground Truth
+
+![A2I Workflow](../../images/A2I.png)
+[**Source**](https://aws.amazon.com/blogs/machine-learning/amazon-a2i-is-now-generally-available/)
