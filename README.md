@@ -47,3 +47,4 @@ Below Table Link containing information about each sections in detail.
       - Amazon Augmented AI (A2I) Overview
     - [Hardware for AI](./section/aws-managed-ai-services/ai-hardware.md)
       - Amazon EC2, Amazon's Hardware for AI
+    - [AWS Managed AI Services - Quick Revision Summary](./section/aws-managed-ai-services/aws-ai-services-summary.md)
