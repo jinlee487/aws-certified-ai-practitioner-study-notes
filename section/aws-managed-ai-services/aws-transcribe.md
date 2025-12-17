@@ -38,8 +38,8 @@
   - Helps Transcribe choose the correct meaning based on industry or use case
   - Example:
     - "microservice":
-      - Bird context -> "my crow service"
-      - IT context -> "microservice"
+      - Bird context → "my crow service"
+      - IT context → "microservice"
 - **Using both custom vocabularies and custom language models provides the highest transcription accuracy**
 
 ## Toxicity Detection
