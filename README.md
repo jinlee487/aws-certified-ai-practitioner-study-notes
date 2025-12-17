@@ -26,3 +26,5 @@ Below Table Link containing information about each sections in detail.
       - Why Use AWS AI Managed Services?, Examples of AWS AI Managed Services,
     - [Amazon Comprehend](./section/aws-managed-ai-services/aws-comprehend.md)
       - Overview, Why Use Amazon Comprehend?, Custom Classification, Named Entity Recognition (NER), Custom Entity Recognition, Amazon Comprehend Medical
+    - [Amazon Translate](./section/aws-managed-ai-services/aws-translate.md)
+      - Overview
