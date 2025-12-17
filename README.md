@@ -28,3 +28,5 @@ Below Table Link containing information about each sections in detail.
       - Overview, Why Use Amazon Comprehend?, Custom Classification, Named Entity Recognition (NER), Custom Entity Recognition, Amazon Comprehend Medical
     - [Amazon Translate](./section/aws-managed-ai-services/aws-translate.md)
       - Overview
+    - [Amazon Transcribe](./section/aws-managed-ai-services/aws-transcribe.md)
+      - Overview, Improving Accuracy, Toxicity Detection, Amazon Transcribe Medical, Use Cases
