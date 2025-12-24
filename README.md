@@ -23,30 +23,34 @@ Below Table Link containing information about each sections in detail.
     - Introduction to Amazon Q, Amazon Q Business, Amazon Q Apps, Amazon Q Developer
   - [AI and Machine Learning Overview](./section/ai-and-ml/ai-and-ml-introduction.md)
     - What is AI?, AI Components, What is Machine Learning (ML)?, What is Deep Leaning(DL)?, What is Generative AI?, What is the Transformer Model? (LLM), Diffusion Models, Multi-Modal Models, Training Data, Supervised Learning, Unsupervised Learning, Semi-Supervised Learning, Self-Supervised Learning, Reinforcement Learning (RL), What is RLHF?, Model Fit, Bias and Variance, Model Evaluation Metrics, Confusion Matrix, Key Classification Metrics, AUC-ROC - Area under the curve-receiver operator curve, Regression Metrics, Metrics for Evaluating LLMs, Inferencing, Phases of a Machine Learning Project, Hyperparameter Tuning, Important Hyperparameters, What to Do If the Model Is Overfitting?
-  - AWS Managed AI Services
-    - [Introduction of AWS Managed AI Services](./section/aws-managed-ai-services/introduction-of-aws-managed-ai-services.md)
-      - Why Use AWS AI Managed Services?, Examples of AWS AI Managed Services,
-    - [Amazon Comprehend](./section/aws-managed-ai-services/aws-comprehend.md)
-      - Amazon Comprehend Overview, Why Use Amazon Comprehend?, Custom Classification, Named Entity Recognition (NER), Custom Entity Recognition, Amazon Comprehend Medical
-    - [Amazon Translate](./section/aws-managed-ai-services/aws-translate.md)
-      - Amazon Translate Overview
-    - [Amazon Transcribe](./section/aws-managed-ai-services/aws-transcribe.md)
-      - Amazon Transcribe Overview, Improving Accuracy, Toxicity Detection, Amazon Transcribe Medical, Use Cases
-    - [Amazon Polly](./section/aws-managed-ai-services/aws-polly.md)
-      - Overview, Lexicons, SSML format, Voice engine, Speech Marks
-    - [Amazon Rekognition](./section/aws-managed-ai-services/aws-rekognition.md)
-      - Amazon Rekognition Overview, Recognition Custom Labels, Content Moderation
-    - [Amazon Lex](./section/aws-managed-ai-services/aws-lex.md)
-      - Amazon Lex Overview, Workflow
-    - [Amazon Personalize](./section/aws-managed-ai-services/aws-personalize.md)
-    - [Amazon Textract](./section/aws-managed-ai-services/aws-textract.md)
-      - Amazon Textract Overview
-    - [Amazon Kendra](./section/aws-managed-ai-services/aws-kendra.md)
-      - Amazon Kendra Overview, Key Concepts
-    - [Amazon Mechanical Turk](./section/aws-managed-ai-services/aws-mechanical-turk.md)
-      - Amazon Mechanical Turk Overview
-    - [Amazon Augmented AI (A2I)](./section/aws-managed-ai-services/aws-augmented-ai.md)
-      - Amazon Augmented AI (A2I) Overview
-    - [Hardware for AI](./section/aws-managed-ai-services/ai-hardware.md)
-      - Amazon EC2, Amazon's Hardware for AI
-    - [AWS Managed AI Services - Quick Revision Summary](./section/aws-managed-ai-services/aws-ai-services-summary.md)
+
+- AWS Managed AI Services
+  - [Introduction of AWS Managed AI Services](./section/aws-managed-ai-services/introduction-of-aws-managed-ai-services.md)
+    - Why Use AWS AI Managed Services?, Examples of AWS AI Managed Services,
+  - [Amazon Comprehend](./section/aws-managed-ai-services/aws-comprehend.md)
+    - Amazon Comprehend Overview, Why Use Amazon Comprehend?, Custom Classification, Named Entity Recognition (NER), Custom Entity Recognition, Amazon Comprehend Medical
+  - [Amazon Translate](./section/aws-managed-ai-services/aws-translate.md)
+    - Amazon Translate Overview
+  - [Amazon Transcribe](./section/aws-managed-ai-services/aws-transcribe.md)
+    - Amazon Transcribe Overview, Improving Accuracy, Toxicity Detection, Amazon Transcribe Medical, Use Cases
+  - [Amazon Polly](./section/aws-managed-ai-services/aws-polly.md)
+    - Overview, Lexicons, SSML format, Voice engine, Speech Marks
+  - [Amazon Rekognition](./section/aws-managed-ai-services/aws-rekognition.md)
+    - Amazon Rekognition Overview, Recognition Custom Labels, Content Moderation
+  - [Amazon Lex](./section/aws-managed-ai-services/aws-lex.md)
+    - Amazon Lex Overview, Workflow
+  - [Amazon Personalize](./section/aws-managed-ai-services/aws-personalize.md)
+  - [Amazon Textract](./section/aws-managed-ai-services/aws-textract.md)
+    - Amazon Textract Overview
+  - [Amazon Kendra](./section/aws-managed-ai-services/aws-kendra.md)
+    - Amazon Kendra Overview, Key Concepts
+  - [Amazon Mechanical Turk](./section/aws-managed-ai-services/aws-mechanical-turk.md)
+    - Amazon Mechanical Turk Overview
+  - [Amazon Augmented AI (A2I)](./section/aws-managed-ai-services/aws-augmented-ai.md)
+    - Amazon Augmented AI (A2I) Overview
+  - [Hardware for AI](./section/aws-managed-ai-services/ai-hardware.md)
+    - Amazon EC2, Amazon's Hardware for AI
+  - [AWS Managed AI Services - Quick Revision Summary](./section/aws-managed-ai-services/aws-ai-services-summary.md)
+
+- [Amazon SageMaker](./section/sagemaker/aws-sagemaker.md)
+  - Amazon SageMaker Overview, Built-in ML Algorithms, Automatic Model Tuning (AMT), Model Deployment and Inference, SageMaker Model Deployment Comparison, SageMaker Studio, Data Wrangler, ML Features, SageMaker Feature Store, SageMaker Clarify, SageMaker Ground Truth, ML Governance, SageMaker Model Dashboards, SageMaker Model Monitor, SageMaker Model Registry, SageMaker Pipelines, Pipeline Structure, SageMaker JumpStart, Model Fine-Tuning with JumpStart, SageMaker Canvas, MLFlow for Amazon SageMaker
