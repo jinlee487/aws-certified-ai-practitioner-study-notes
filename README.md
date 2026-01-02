@@ -54,3 +54,7 @@ Below Table Link containing information about each sections in detail.
 
 - [Amazon SageMaker](./section/sagemaker/aws-sagemaker.md)
   - Amazon SageMaker Overview, Built-in ML Algorithms, Automatic Model Tuning (AMT), Model Deployment and Inference, SageMaker Model Deployment Comparison, SageMaker Studio, Data Wrangler, ML Features, SageMaker Feature Store, SageMaker Clarify, SageMaker Ground Truth, ML Governance, SageMaker Model Dashboards, SageMaker Model Monitor, SageMaker Model Registry, SageMaker Pipelines, Pipeline Structure, SageMaker JumpStart, Model Fine-Tuning with JumpStart, SageMaker Canvas, MLFlow for Amazon SageMaker
+
+- AI Challenges and Responsibilities
+  - [Responsible AI and Security](./section/ai-challenges-and-responsibilities/responsible-ai.md)
+    - Responsible AI and Security, core dimensions of responsible AI, AWS services for responsible AI, AWS AI service cards, interpretability vs explainability, high interpretability models – decision trees, partial dependence plots (PDP), human-centered design (HCD) for explainable AI, generative AI: capabilities and challenges
