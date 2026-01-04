@@ -60,3 +60,5 @@ Below Table Link containing information about each sections in detail.
     - Responsible AI and Security, core dimensions of responsible AI, AWS services for responsible AI, AWS AI service cards, interpretability vs explainability, high interpretability models – decision trees, partial dependence plots (PDP), human-centered design (HCD) for explainable AI, generative AI: capabilities and challenges
     - [GenAI Capabilities and Challenges](./section/ai-challenges-and-responsibilities/genai-challenges.md)
       - Capabilities of Generative AI, Challenges of Generative AI, Toxicity, Hallucinations, Plagiarism and Cheating, Prompt Misuses
+    - [Compliance for AI](./section/ai-challenges-and-responsibilities/compliance.md)
+      - Regulated Workloads, AI Standard Compliance Challenges, AWS Compliance, Model Cards
