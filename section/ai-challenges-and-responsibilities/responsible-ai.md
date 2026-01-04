@@ -9,7 +9,6 @@
   - [High Interpretability Models – Decision Trees](#high-interpretability-models--decision-trees)
   - [Partial Dependence Plots (PDP)](#partial-dependence-plots-pdp)
   - [Human-Centered Design (HCD) for Explainable AI](#human-centered-design-hcd-for-explainable-ai)
-  - [Generative AI: Capabilities and Challenges](#generative-ai-capabilities-and-challenges)
 
 ## Overview
 
@@ -154,27 +153,3 @@ INCOME
   - Cognitive apprenticeship: AI systems learn from human instructors and experts
   - Personalization: meet the specific needs and preferences of a human learner
   - User-centered design: accessible to wide range of users
-
-## Generative AI: Capabilities and Challenges
-
-| **Capabilities** | **Details**                                      |
-| ---------------- | ------------------------------------------------ |
-| Adaptability     | Can adjust responses across tasks and domains    |
-| Responsiveness   | Generates outputs in real time                   |
-| Simplicity       | Abstracts complex logic behind simple interfaces |
-| Creativity       | Produces novel ideas, content, and solutions     |
-| Data efficiency  | Learns effectively from smaller datasets         |
-| Personalization  | Tailors outputs to individual users              |
-| Scalability      | Serves millions of users simultaneously          |
-
-| **Challenges**          | **Details**                               |
-| ----------------------- | ----------------------------------------- |
-| Regulatory violations   | May violate laws if not governed properly |
-| Social risks            | Can amplify bias or misinformation        |
-| Data security & privacy | Risk of leaking sensitive information     |
-| Toxicity                | Can generate harmful or offensive content |
-| Hallucinations          | Produces confident but incorrect outputs  |
-| Interpretability        | Hard to explain complex models            |
-| Nondeterminism          | Same input may produce different outputs  |
-| Plagiarism & cheating   | Risk of copying copyrighted content       |
-
