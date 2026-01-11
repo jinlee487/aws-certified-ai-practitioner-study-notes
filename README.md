@@ -62,3 +62,5 @@ Below Table Link containing information about each sections in detail.
       - Capabilities of Generative AI, Challenges of Generative AI, Toxicity, Hallucinations, Plagiarism and Cheating, Prompt Misuses
     - [Compliance for AI](./section/ai-challenges-and-responsibilities/compliance.md)
       - Regulated Workloads, AI Standard Compliance Challenges, AWS Compliance, Model Cards
+    - [Governance for AI](./section/ai-challenges-and-responsibilities/governance.md)
+      - Importance of Governance and Compliance, AI Governance Framework, AWS Tools Supporting AI Governance, Governance Strategies, Data Governance Strategies, Data Management Concepts, Data Lineage
