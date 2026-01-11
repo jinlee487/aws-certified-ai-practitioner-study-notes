@@ -67,3 +67,5 @@ Below Table Link containing information about each sections in detail.
     - [Security and Privacy for AI Systems](./section/ai-challenges-and-responsibilities/security-and-privacy.md)
       - Monitoring AI systems, AWS Shared Responsibility Model, Secure Data Engineering – Best Practices
     - [MLOps (Machine Learning Operations)](./section/ai-challenges-and-responsibilities/mlops.md)
+- [**AWS Security Services and more**](./section/aws-security-services/aws-security-services.md)
+  - IAM - Identity and Access Management, Amazon S3 - Simple Storage Service, Amazon EC2, AWS Lambda, Amazon Macie, AWS Config, Amazon Inspector, AWS CloudTrail, AWS Artifact, AWS Audit Manager, AWS Trusted Advisor, VPC (Virtual Private Cloud), AWS Services for Bedrock
