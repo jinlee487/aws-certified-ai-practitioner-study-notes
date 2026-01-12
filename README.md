@@ -1,7 +1,6 @@
-# AWS Certified AI Practitioner Study Notes (AIF-C01)
+# AWS Certified AI Practitioner (AIF-C01) Study Notes
 
 - This will help you for quick revision before exam.
-
 - If you are studying for AWS AI Practitioner certifications or you already have them but want to have digital notes of what you studied, here it is and you can come back as many times as you need. I share the notes I used to study and pass my exam.
 
 ![aif-c01](./images/aif-badge.png)
@@ -10,6 +9,7 @@ Below Table Link containing information about each sections in detail.
 
 ## Table of contents
 
+- [AWS Certified AI Practitioner Study Guide](./study-guide.md)
 - [Introduction to Cloud Computing and AWS](./section/cloud-computing/cloud-computing.md)
   - What is Cloud Computing?, The Five Characteristics of Cloud Computing, Six Advantages of Cloud Computing, Problems Solved by the Cloud
 - **Generative AI and Amazon Bedrock**
