@@ -206,3 +206,8 @@ RDS for PostgreSQL).
 - Identify AWS services and features to assist with governance and regulation compliance (for example, AWS Config, Amazon Inspector, AWS Audit Manager, AWS Artifact, AWS CloudTrail, AWS Trusted Advisor).
 - Describe data governance strategies (for example, data lifecycles, logging, residency, monitoring, observation, retention).
 - Describe processes to follow governance protocols (for example, policies, review cadence, review strategies, governance frameworks such as the Generative AI Security Scoping Matrix, transparency standards, team training requirements).
+
+**AWS Official Exam Guide Reference Link:**
+
+- [AWS Official Website](https://aws.amazon.com/certification/certified-ai-practitioner/)
+- [AWS Reference PDF](https://d1.awsstatic.com/training-and-certification/docs-ai-practitioner/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
