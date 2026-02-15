@@ -1,4 +1,4 @@
-# AWS Certified AI Practitioner (AIF-C01) Study Notes
+# AWS Certified AI Practitioner (AIF-C01) Study Notes and Practice Exam
 
 - This will help you for quick revision before exam.
 - If you are studying for AWS AI Practitioner certifications or you already have them but want to have digital notes of what you studied, here it is and you can come back as many times as you need. I share the notes I used to study and pass my exam.
@@ -70,3 +70,27 @@ Below Table Link containing information about each sections in detail.
 - [**AWS Security Services and more**](./section/aws-security-services/aws-security-services.md)
   - IAM - Identity and Access Management, Amazon S3 - Simple Storage Service, Amazon EC2, AWS Lambda, Amazon Macie, AWS Config, Amazon Inspector, AWS CloudTrail, AWS Artifact, AWS Audit Manager, AWS Trusted Advisor, VPC (Virtual Private Cloud), AWS Services for Bedrock
 - [Glossary of AWS AI Practitioner Exam](./glossary.md)
+
+## Free AWS Certified AI Practitioner Exam (AIF-C01) Practice Questions with answers and explanation
+
+- **[Practice Exam List](./practice-exam/exams.md)**
+
+## Other AWS And Azure Certification Notes
+
+- [AWS Certified Cloud Practitioner (CLF-C01) Study Notes and Practice Exam](https://kananinirav.com/)
+- [Microsoft Azure Fundamentals (AZ-900)](https://certification.kananinirav.com/az-900-microsoft-azure-fundamentals/)
+- [Useful Cheat Sheet For Developers](https://certification.kananinirav.com/cheat-sheets/)
+
+### If you find the content of this website interesting and helpful, use the “Buy me a Coffee” link below to buy me a coffee
+
+<a href='https://ko-fi.com/I2I51B7WW2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+![gif](https://media.giphy.com/media/gTURHJs4e2Ies/giphy.gif)
+
+<div class="hide-star">
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=kananinirav/aws-certified-ai-practitioner-study-notes&type=Date)](https://star-history.com/#kananinirav/AWS-Certified-Cloud-Practitioner-Notes&Date)
+
+</div>
