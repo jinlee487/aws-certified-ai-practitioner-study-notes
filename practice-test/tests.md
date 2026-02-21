@@ -1,4 +1,4 @@
-# Practice Exam
+# Practice Tests
 
 ## Free AWS Certified AI Practitioner Exam (AIF-C01) Practice Questions with answers
 
@@ -10,10 +10,10 @@ If this guide has been helpful to you please share it with others and react to t
 
 ### Exam List
 
-- [Practice Exam - 1](./practice-exam-1.md)
-- [Practice Exam - 2](./practice-exam-2.md)
-- [Practice Exam - 3](./practice-exam-3.md)
-- [Practice Exam - 4](./practice-exam-4.md)
-- [Practice Exam - 5](./practice-exam-5.md)
-- [Practice Exam - 6](./practice-exam-6.md)
-- [Practice Exam - 7](./practice-exam-7.md)
+- [Practice Test - 1](./practice-test-1.md)
+- [Practice Test - 2](./practice-test-2.md)
+- [Practice Test - 3](./practice-test-3.md)
+- [Practice Test - 4](./practice-test-4.md)
+- [Practice Test - 5](./practice-test-5.md)
+- [Practice Test - 6](./practice-test-6.md)
+- [Practice Test - 7](./practice-test-7.md)

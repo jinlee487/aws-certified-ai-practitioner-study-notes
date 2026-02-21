@@ -1,6 +1,6 @@
-# AWS AI Practitioner Exam Study Notes - Glossary
+# AWS AI Practitioner Test Study Notes - Glossary
 
-- [AWS AI Practitioner Exam Study Notes - Glossary](#aws-ai-practitioner-exam-study-notes---glossary)
+- [AWS AI Practitioner Test Study Notes - Glossary](#aws-ai-practitioner-test-study-notes---glossary)
   - [Core AI and ML Concepts](#core-ai-and-ml-concepts)
   - [Learning Types](#learning-types)
   - [Model Training and Optimization](#model-training-and-optimization)

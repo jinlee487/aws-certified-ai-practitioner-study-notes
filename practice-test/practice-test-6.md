@@ -1,4 +1,4 @@
-# Practice Exam 6
+# Practice Test 6
 
 1. A design company is using a foundation model (FM) on Amazon Bedrock to generate images for various projects. The company wants to have control over how detailed or abstract each generated image appears Which model parameter should the company modify?
     - A. Model checkpoint

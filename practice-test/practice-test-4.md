@@ -1,4 +1,4 @@
-# Practice Exam 4
+# Practice Test 4
 
 1. A company wants to identify harmful language in the comments section of social media posts by using an ML model. The company will not use labeled data to train the model. Which strategy should the company use to identify harmful language?
     - A. Use Amazon Rekognition moderation.

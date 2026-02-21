@@ -1,4 +1,4 @@
-# Practice Exam 7
+# Practice Test 7
 
 1. A company is using large language models (LLMs) to develop online tutoring applications. The company needs to apply configurable safeguards to the LLMs. These safeguards must ensure that the LLMs follow standard safety rules when creating applications. Which solution will meet these requirements with the LEAST effort?
     - A. Amazon Bedrock playgrounds

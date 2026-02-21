@@ -1,4 +1,4 @@
-# AWS Certified AI Practitioner (AIF-C01) Study Notes and Practice Exam
+# AWS Certified AI Practitioner (AIF-C01) Study Notes and Practice Tests
 
 - This will help you for quick revision before exam.
 - If you are studying for AWS AI Practitioner certifications or you already have them but want to have digital notes of what you studied, here it is and you can come back as many times as you need. I share the notes I used to study and pass my exam.
@@ -73,11 +73,11 @@ Below Table Link containing information about each sections in detail.
 
 ## Free AWS Certified AI Practitioner Exam (AIF-C01) Practice Questions with answers and explanation
 
-- **[Practice Exam List](./practice-exam/exams.md)**
+- **[Practice Test List](./practice-test/tests.md)**
 
 ## Other AWS And Azure Certification Notes
 
-- [AWS Certified Cloud Practitioner (CLF-C01) Study Notes and Practice Exam](https://kananinirav.com/)
+- [AWS Certified Cloud Practitioner (CLF-C01) Study Notes and Practice Tests](https://kananinirav.com/)
 - [Microsoft Azure Fundamentals (AZ-900)](https://certification.kananinirav.com/az-900-microsoft-azure-fundamentals/)
 - [Useful Cheat Sheet For Developers](https://certification.kananinirav.com/cheat-sheets/)
 

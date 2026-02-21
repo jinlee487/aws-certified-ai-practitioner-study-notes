@@ -1,4 +1,4 @@
-# Practice Exam 5
+# Practice Test 5
 
 1. An education company waftion. The application will give users the ability to enter text or provide a picture of a question. The application will respond with a written answer and an explanation of the written answer.
     - A. Computer vision model
