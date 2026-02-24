@@ -73,7 +73,7 @@ Below Table Link containing information about each sections in detail.
 
 ## Free AWS Certified AI Practitioner Exam (AIF-C01) Practice Questions with answers and explanation
 
-- **[Practice Test List](./practice-test/tests.md)**
+- **[Practice Test List](https://notezio.com/aws-certified-ai-practitioner/practice-test/tests.html)**
 
 ## Other AWS And Azure Certification Notes
 
