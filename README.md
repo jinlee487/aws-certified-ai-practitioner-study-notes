@@ -8,7 +8,14 @@
 
 ![aif-c01](./images/aif-badge.png)
 
-Below Table Link containing information about each sections in detail.
+## Buy This AWS AI Practitioner Study Notes PDF
+
+![Ebook_Cover](./images/ebook-cover.png)
+
+**[Sample PDF](https://notezio.com/pdfs/AWS-AI-Practitioner-AIF-C01-Study-Notes-Sample.pdf)** &nbsp; &nbsp; &nbsp;
+**[Buy Study Notes PDF](https://ko-fi.com/s/88fbf9f485)**
+
+Below Table Link containing information about each sections in details.
 
 ## Table of contents
 
