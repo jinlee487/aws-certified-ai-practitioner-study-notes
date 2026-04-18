@@ -1,19 +1,9 @@
 # AWS Certified AI Practitioner (AIF-C01) Study Notes and Practice Tests
 
-> [!NOTE]
-> **Website**: [Notezio - AWS Certified AI Practitioner Study Notes](https://notezio.com/aws-certified-ai-practitioner/)
-
 - This will help you for quick revision before exam.
 - If you are studying for AWS AI Practitioner certifications or you already have them but want to have digital notes of what you studied, here it is and you can come back as many times as you need. I share the notes I used to study and pass my exam.
 
 ![aif-c01](./images/aif-badge.png)
-
-## Buy This AWS AI Practitioner Study Notes PDF
-
-![Ebook_Cover](./images/ebook-cover.png)
-
-**[Sample PDF](https://notezio.com/pdfs/AWS-AI-Practitioner-AIF-C01-Study-Notes-Sample.pdf)** &nbsp; &nbsp; &nbsp;
-**[Buy Study Notes PDF](https://ko-fi.com/s/88fbf9f485)**
 
 Below Table Link containing information about each sections in details.
 
@@ -84,6 +74,16 @@ Below Table Link containing information about each sections in details.
 ## Free AWS Certified AI Practitioner Exam (AIF-C01) Practice Questions with answers and explanation
 
 - **[Practice Test List](https://notezio.com/aws-certified-ai-practitioner/practice-test/tests.html)**
+
+## Buy This AWS AI Practitioner Study Notes PDF
+
+![Ebook_Cover](./images/ebook-cover.png)
+
+**[Sample PDF](https://notezio.com/pdfs/AWS-AI-Practitioner-AIF-C01-Study-Notes-Sample.pdf)** &nbsp; &nbsp; &nbsp;
+**[Buy Study Notes PDF](https://ko-fi.com/s/88fbf9f485)**
+
+> [!NOTE]
+> **Website**: [Notezio - AWS Certified AI Practitioner Study Notes](https://notezio.com/aws-certified-ai-practitioner/)
 
 ## Other AWS And Azure Certification Notes
 
