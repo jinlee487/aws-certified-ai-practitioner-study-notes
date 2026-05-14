@@ -8,7 +8,7 @@ Please feel free to comment below if any information is inaccurate or if any ans
 
 If this guide has been helpful to you please share it with others and react to this below.
 
-### For better experience, you can visit the website [https://notezio.com/aws-certified-ai-practitioner/](https://notezio.com/aws-certified-ai-practitioner/practice-test/tests.html)
+### For better experience, you can visit the website [https://notezio.com/aws-certified-ai-practitioner/](https://notezio.com/aws-certified-ai-practitioner/practice-test/tests/)
 
 ### Exam List
 
