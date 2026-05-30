@@ -101,6 +101,6 @@ Below Table Link containing information about each sections in details.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=kananinirav/aws-certified-ai-practitioner-study-notes&type=Date)](https://star-history.com/#kananinirav/AWS-Certified-Cloud-Practitioner-Notes&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=kananinirav/aws-certified-ai-practitioner-study-notes&type=Date)](https://star-history.com/#kananinirav/aws-certified-ai-practitioner-study-notes&Date)
 
 </div>
