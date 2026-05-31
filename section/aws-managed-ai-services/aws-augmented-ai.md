@@ -10,5 +10,5 @@
 - Integrates with SageMaker
 - Similar to SageMaker Ground Truth
 
-![A2I Workflow](../../images/a2i.png)
+![A2I Workflow](../../images/a2I.png)
 [**Source**](https://aws.amazon.com/blogs/machine-learning/amazon-a2i-is-now-generally-available/)
