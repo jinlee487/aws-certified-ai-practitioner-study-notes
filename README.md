@@ -5,6 +5,13 @@
 
 ![aif-c01](./images/aif-badge.png)
 
+## Buy this AWS AI Practitioner Study Notes PDF
+
+![Ebook_Cover](./images/ebook-cover.png)
+
+**[Sample PDF](https://notezio.com/pdfs/AWS-AI-Practitioner-AIF-C01-Study-Notes-Sample.pdf)** &nbsp; &nbsp; &nbsp;
+**[Buy Study Notes PDF](https://ko-fi.com/s/88fbf9f485)**
+
 Below Table Link containing information about each sections in details.
 
 ## Table of contents
@@ -74,13 +81,6 @@ Below Table Link containing information about each sections in details.
 ## Free AWS Certified AI Practitioner Exam (AIF-C01) Practice Questions with answers and explanation
 
 - **[Practice Test List](https://notezio.com/aws-certified-ai-practitioner/practice-test/tests/)**
-
-## Buy This AWS AI Practitioner Study Notes PDF
-
-![Ebook_Cover](./images/ebook-cover.png)
-
-**[Sample PDF](https://notezio.com/pdfs/AWS-AI-Practitioner-AIF-C01-Study-Notes-Sample.pdf)** &nbsp; &nbsp; &nbsp;
-**[Buy Study Notes PDF](https://ko-fi.com/s/88fbf9f485)**
 
 > [!NOTE]
 > **Website**: [Notezio - AWS Certified AI Practitioner Study Notes](https://notezio.com/aws-certified-ai-practitioner/)
