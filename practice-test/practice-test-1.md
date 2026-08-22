@@ -1,5 +1,5 @@
 # Practice Test 1
-
+<span style="background-color:yellow">
 1. A company makes forecasts each quarter to decide how to optimize operations to meet expected demand. The company uses ML models to make these forecasts. An AI practitioner is writing a report about the trained ML models to provide transparency and explainability to company stakeholders. What should the AI practitioner include in the report to meet the transparency and explainability requirements?
     - A. Code for model training
     - B. Partial dependence plots (PDPs)
@@ -11,7 +11,7 @@
 
       Explanation: Partial Dependence Plots (PDPs) are a powerful tool for understanding and explaining how the features in a machine learning model impact predictions. They are often used to meet transparency and explainability requirements for stakeholders. Let's go over why this is the correct choice, along with why the other options are less suitable: Partial Dependence Plots (PDPs) Purpose: PDPs show the relationship between a feature (or multiple features) and the model's predicted output, which helps to explain the effect of each feature on the model’s predictions. Explainability: By visualizing how each feature influences the prediction, stakeholders can better understand how the model works and why it makes certain predictions. This level of interpretability is essential for gaining trust from non-technical stakeholders. Transparency: PDPs improve transparency by providing an intuitive way to analyze and present the effects of individual features.
     </details>
-
+</span>
 2. A law firm wants to build an AI application by using large language models (LLMs). The application will read legal documents and extract key points from the documents. Which solution meets these requirements?
     - A. Build an automatic named entity recognition system.
     - B. Create a recommendation engine.
@@ -47,7 +47,7 @@
 
       Explanation: Accuracy measures how many images were correctly classified out of the total images, making it the appropriate metric for evaluating the performance of an image classification model. The other metrics are either not suitable for classification tasks or not used for performance evaluation.
     </details>
-
+<span style="background-color:yellow">
 5. A company is using a pre-trained large language model (LLM) to build a chatbot for product recommendations. The company needs the LLM outputs to be short and written in a specific language. Which solution will align the LLM response quality with the company's expectations?
     - A. Adjust the prompt.
     - B. Choose an LLM of a different size.
@@ -59,7 +59,7 @@
 
       Explanation: Adjusting the prompt allows you to specify the desired length and language of the LLM's responses, making it suitable for tailoring the output to meet the company's needs. The other options do not directly control response length or language.
     </details>
-
+</span>
 6. A company uses Amazon SageMaker for its ML pipeline in a production environment. The company has large input data sizes up to 1 GB and processing times up to 1 hour. The company needs near real-time latency. Which SageMaker inference option meets these requirements?
     - A. Real-time inference
     - B. Serverless inference
@@ -84,6 +84,7 @@
       Explanation: Transfer learning allows the company to adapt pre-trained models for new, related tasks, saving time and resources compared to training models from scratch. The other options do not address the goal of reusing existing models.
     </details>
 
+<span style="background-color:yellow">
 8. A company is building a solution to generate images for protective eyewear. The solution must have high accuracy and must minimize the risk of incorrect annotations. Which solution will meet these requirements?
     - A. Human-in-the-loop validation by using Amazon SageMaker Ground Truth Plus
     - B. Data augmentation by using an Amazon Bedrock knowledge base
@@ -95,7 +96,9 @@
 
       Explanation: Human-in-the-loop validation ensures high accuracy by involving human reviewers to verify and correct annotations, minimizing the risk of errors in the generated images. The other options are not directly relevant for ensuring annotation accuracy in image generation.
     </details>
+</span>
 
+<span style="background-color:yellow">
 9. A company wants to create a chatbot by using a foundation model (FM) on Amazon Bedrock. The FM needs to access encrypted data that is stored in an Amazon S3 bucket. The data is encrypted with Amazon S3 managed keys (SSE-S3). The FM encounters a failure when attempting to access the S3 bucket data. Which solution will meet these requirements?
     - A. Ensure that the role that Amazon Bedrock assumes has permission to decrypt data with the correct encryption key.
     - B. Set the access permissions for the S3 buckets to allow public access to enable access over the internet.
@@ -107,7 +110,7 @@
 
       Explanation: The foundation model needs the appropriate permissions to decrypt the encrypted data in the S3 bucket. Ensuring that the role used by Amazon Bedrock has permission to access and decrypt the data will resolve the access failure. The other options are not suitable for addressing the encryption and permission issue.
     </details>
-
+</span>
 10. A company wants to use language models to create an application for inference on edge devices. The inference must have the lowest latency possible. Which solution will meet these requirements?
     - A. Deploy optimized small language models (SLMs) on edge devices.
     - B. Deploy optimized large language models (LLMs) on edge devices.
@@ -132,6 +135,7 @@
       Explanation: Amazon SageMaker Feature Store is a centralized repository for storing and managing features, allowing multiple teams to share and reuse variables (features) for model development. The other options serve different purposes, such as data preprocessing or model documentation.
     </details>
 
+<span style="background-color:yellow">
 12. A company wants to use generative AI to increase developer productivity and software development. The company wants to use Amazon Q Developer. What can Amazon Q Developer do to help the company meet these requirements?
     - A. Create software snippets, reference tracking, and open source license tracking.
     - B. Run an application without provisioning or managing servers.
@@ -143,7 +147,7 @@
 
       Explanation: Amazon Q Developer is designed to assist developers by generating software snippets, tracking references, and managing open source licenses, which aligns with the company's goal of increasing productivity in software development. The other options do not match the intended use of Amazon Q Developer.
     </details>
-
+</span>
 13. A financial institution is using Amazon Bedrock to develop an AI application. The application is hosted in a VPC. To meet regulatory compliance standards, the VPC is not allowed access to any internet traffic. Which AWS service or feature will meet these requirements?
     - A. AWS PrivateLink
     - B. Amazon Macie
@@ -180,6 +184,7 @@
       Explanation: Average response time measures how quickly an AI model produces an output, which reflects the runtime efficiency of the model. The other options do not directly measure the efficiency of operating AI models.
     </details>
 
+<span style="background-color:yellow">
 16. A company is building a contact center application and wants to gain insights from customer conversations. The company wants to analyze and extract key information from the audio of the customer calls. Which solution meets these requirements?
     - A. Build a conversational chatbot by using Amazon Lex.
     - B. Transcribe call recordings by using Amazon Transcribe.
@@ -191,7 +196,7 @@
 
       Explanation: Amazon Transcribe converts audio recordings into text, which allows for further analysis and extraction of key information from customer conversations. The other options do not directly handle audio transcription or extraction of information from audio.
     </details>
-
+</span>
 17. A company has petabytes of unlabeled customer data to use for an advertisement campaign. The company wants to classify its customers into tiers to advertise and promote the company's products. Which methodology should the company use to meet these requirements?
     - A. Supervised learning
     - B. Unsupervised learning
@@ -216,6 +221,7 @@
       Explanation: A multi-modal embedding model can handle both text and image queries by embedding them into a shared space, enabling the search application to process and relate different data types. The other options are not suitable for handling both text and image inputs effectively.
     </details>
 
+<span style="background-color:yellow">
 19. A company uses a foundation model (FM) from Amazon Bedrock for an AI search tool. The company wants to fine-tune the model to be more accurate by using the company's data. Which strategy will successfully fine-tune the model?
     - A. Provide labeled data with the prompt field and the completion field.
     - B. Prepare the training dataset by creating a .txt file that contains multiple lines in .csv format.
@@ -227,7 +233,7 @@
 
       Explanation: Fine-tuning a foundation model involves training it with labeled data that contains both input prompts and corresponding expected completions to adjust the model’s behavior to fit the company’s needs. The other options are not directly related to the fine-tuning process using specific labeled data.
     </details>
-
+</span>
 20. A company wants to use AI to protect its application from threats. The AI solution needs to check if an IP address is from a suspicious source. Which solution meets these requirements?
     - A. Build a speech recognition system.
     - B. Create a natural language processing (NLP) named entity recognition system.
@@ -240,6 +246,7 @@
       Explanation: An anomaly detection system can identify suspicious behavior, such as IP addresses that deviate from expected patterns, which helps in protecting the application from threats. The other options are not designed for detecting suspicious IP addresses.
     </details>
 
+<span style="background-color:yellow">
 21. Which feature of Amazon OpenSearch Service gives companies the ability to build vector database applications?
     - A. Integration with Amazon S3 for object storage
     - B. Support for geospatial indexing and queries
@@ -251,7 +258,7 @@
 
       Explanation: The scalable index management and nearest neighbor search capability in Amazon OpenSearch Service enables companies to build vector database applications, which are crucial for tasks like similarity search in AI models. The other options do not specifically provide the vector search functionality.
     </details>
-
+</span>
 22. Which option is a use case for generative AI models?
     - A. Improving network security by using intrusion detection systems
     - B. Creating photorealistic images from text descriptions for digital marketing
@@ -312,6 +319,7 @@
       Explanation: AWS CloudTrail records API activity and provides a log of access attempts, which helps identify unauthorized users trying to access Amazon Bedrock. The other services are not specifically used for tracking unauthorized access attempts in this context.
     </details>
 
+<span style="background-color:yellow">
 27. A company has developed an ML model for image classification. The company wants to deploy the model to production so that a web application can use the model. The company needs to implement a solution to host the model and serve predictions without managing any of the underlying infrastructure. Which solution will meet these requirements?
     - A. Use Amazon SageMaker Serverless Inference to deploy the model.
     - B. Use Amazon CloudFront to deploy the model.
@@ -323,7 +331,7 @@
 
       Explanation: Amazon SageMaker Serverless Inference allows the company to deploy the ML model without managing any underlying infrastructure, making it suitable for hosting the model and serving predictions. The other options do not directly provide serverless model deployment capabilities.
     </details>
-
+</span>
 28. An AI company periodically evaluates its systems and processes with the help of independent software vendors (ISVs). The company needs to receive email message notifications when an ISV's compliance reports become available. Which AWS service can the company use to meet this requirement?
     - A. AWS Audit Manager
     - B. AWS Artifact
@@ -396,6 +404,8 @@
       Explanation: Amazon SageMaker JumpStart provides pre-built models, including foundation models, that can be quickly deployed and consumed within a VPC, helping teams get started faster. The other options are not designed for deploying foundation models in this context.
     </details>
 
+<span style="background-color:yellow">
+
 34. How can companies use large language models (LLMs) securely on Amazon Bedrock?
     - A. Configure AWS Identity and Access Management (IAM) roles and policies by using least privilege
     - B. Enable AWS Audit Manager for automatic model evaluation jobs.
@@ -407,7 +417,7 @@
 
       Explanation: Designing clear prompts using IAM roles with least privilege access ensures secure LLMs on Amazon Bedrock by minimizing directly address securing the use of LLMs.
     </details>
-
+</span>
 35. A company has terabytes of data in a database that the company can use for business analysis. The company wants to build an AI-based application that can build a SQL query from input text that employees provide. The employees have minimal experience with technology. Which solution meets these requirements?
     - A. Generative pre-trained transformers (GPT)
     - B. Residual neural network
@@ -529,6 +539,8 @@
       Explanation: Increasing the volume of data used in training helps the model generalize better to new, unseen data, reducing overfitting and improving performance in production. The other options either do not address the issue of model generalization or are unlikely to effectively solve the problem.
     </details>
 
+<span style="background-color:yellow">
+
 45. An ecommerce company wants to build a solution to determine customer sentiments based on written customer reviews of products. Which AWS services meet these requirements? (Choose 2)
     - A. Amazon Lex
     - B. Amazon Comprehend
@@ -541,6 +553,8 @@
 
       Explanation: Amazon Comprehend: This service is specifically designed for natural language processing (NLP) tasks, including sentiment analysis, making it ideal for analyzing customer reviews. Amazon Bedrock: Bedrock can be used to leverage foundation models, which can also be employed for sentiment analysis tasks. The other options are not suitable for sentiment analysis of written customer reviews.
     </details>
+</span>
+<span style="background-color:yellow">
 
 46. A company wants to use large language models (LLMs) with Amazon Bedrock to develop a chat interface for the company's product manuals. The manuals are stored as PDF files.  Which solution meets these requirements MOST cost-effectively?
     - A. Use prompt engineering to add one PDF file as context to the user prompt when the prompt is submitted to Amazon Bedrock.
@@ -553,7 +567,7 @@
 
       Explanation: Using an Amazon Bedrock knowledge base allows the model to efficiently access relevant information from the PDF manuals when needed, reducing the cost compared to continuously fine-tuning a model or providing all PDFs as context in each prompt. This approach ensures that only necessary context is provided, making it cost-effective.
     </details>
-
+</span>
 47. A social media company wants to use a large language model (LLM) for content moderation. The company wants to evaluate the LLM outputs for bias and potential discrimination against specific groups or individuals. Which data source should the company use to evaluate the LLM outputs with the LEAST administrative effort?
     - A. User-generated content
     - B. Moderation logs
@@ -566,6 +580,8 @@
       Explanation: Benchmark datasets are standardized datasets specifically designed for evaluating models for bias and fairness, allowing for efficient assessment with minimal administrative effort. The other options would require more manual processing and might not provide a consistent basis for evaluating bias and discrimination.
     </details>
 
+<span style="background-color:yellow">
+
 48. A company wants to use a pre-trained generative AI model to generate content for its marketing campaigns. The company needs to ensure that the generated content aligns with the company's brand voice and messaging requirements. Which solution meets these requirements?
     - A. Optimize the model's architecture and hyperparameters to improve the model's overall performance.
     - B. Increase the model's complexity by adding more layers to the model's architecture.
@@ -577,7 +593,7 @@
 
       Explanation: Creating effective prompts helps guide the pre-trained generative AI model to produce content that aligns with the company's brand voice and messaging. The other options either involve model architecture changes or require extensive training, which are not necessary for aligning content generation.
     </details>
-
+</span>
 49. A loan company is building a generative AI-based solution to offer new applicants discounts based on specific business criteria. The company wants to build and use an AI model responsibly to minimize bias that could negatively affect some customers.     Which actions should the company take to meet these requirements? (Choose 2)
     - A. Detect imbalances or disparities in the data.
     - B. Ensure that the model runs frequently.
