@@ -1,5 +1,4 @@
 # Practice Test 1
-<div style="background-color:yellow">
 1. A company makes forecasts each quarter to decide how to optimize operations to meet expected demand. The company uses ML models to make these forecasts. An AI practitioner is writing a report about the trained ML models to provide transparency and explainability to company stakeholders. What should the AI practitioner include in the report to meet the transparency and explainability requirements?
     - A. Code for model training
     - B. Partial dependence plots (PDPs)
@@ -11,7 +10,6 @@
 
       Explanation: Partial Dependence Plots (PDPs) are a powerful tool for understanding and explaining how the features in a machine learning model impact predictions. They are often used to meet transparency and explainability requirements for stakeholders. Let's go over why this is the correct choice, along with why the other options are less suitable: Partial Dependence Plots (PDPs) Purpose: PDPs show the relationship between a feature (or multiple features) and the model's predicted output, which helps to explain the effect of each feature on the model’s predictions. Explainability: By visualizing how each feature influences the prediction, stakeholders can better understand how the model works and why it makes certain predictions. This level of interpretability is essential for gaining trust from non-technical stakeholders. Transparency: PDPs improve transparency by providing an intuitive way to analyze and present the effects of individual features.
     </details>
-</div>
 2. A law firm wants to build an AI application by using large language models (LLMs). The application will read legal documents and extract key points from the documents. Which solution meets these requirements?
     - A. Build an automatic named entity recognition system.
     - B. Create a recommendation engine.
