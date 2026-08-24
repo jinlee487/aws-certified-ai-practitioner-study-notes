@@ -36,17 +36,19 @@
       Explanation: Embeddings map inputs like words, sentences, or documents into continuous vector spaces where semantic similarity corresponds to geometric proximity, enabling models to reason about meaning and relationships mathematically.
     </details>
 
-4. A company wants to add generative AI functionality to its application by integrating a large language model (LLM). The responses from the LLM must be as deterministic and as stable as possible. Which solution meets these requirements?
-    - A. Configure the application to automatically set the temperature parameter to 0 when submitting the prompt to the LLM.
-    - B. Configure the application to automatically add "make your response deterministic" at the end of the prompt before submitting the prompt to the LLM.
-    - C. Configure the application to automatically add "make your response deterministic" at the beginning of the prompt before submitting the prompt to the LLM.
-    - D. Configure the application to automatically set the temperature parameter to 1 when submitting the prompt to the LLM.
+> [!NOTE]
+> **4.** A company wants to add generative AI functionality to its application by integrating a large language model (LLM). The responses from the LLM must be as deterministic and as stable as possible. Which solution meets these requirements?
+>
+> - A. Configure the application to automatically set the temperature parameter to 0 when submitting the prompt to the LLM.
+> - B. Configure the application to automatically add "make your response deterministic" at the end of the prompt before submitting the prompt to the LLM.
+> - C. Configure the application to automatically add "make your response deterministic" at the beginning of the prompt before submitting the prompt to the LLM.
+> - D. Configure the application to automatically set the temperature parameter to 1 when submitting the prompt to the LLM.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: The temperature hyperparameter directly controls the randomness of the LLM’s token sampling: setting it to 0 forces greedy decoding, yielding the most likely next token every time and thus fully deterministic, stable outputs.
-    </details>
+  Explanation: The temperature hyperparameter directly controls the randomness of the LLM’s token sampling: setting it to 0 forces greedy decoding, yielding the most likely next token every time and thus fully deterministic, stable outputs.
+</details>
 
 5. A company needs to select a generative AI model to build an application. The application must provide responses to users in real time. Which model characteristic should the company consider to meet these requirements?
     - A. Model complexity
@@ -120,29 +122,33 @@
       Explanation: Batch inference is designed for high-volume, scheduled predictions: you can point it at the day’s gigabytes of data, run a job once daily, and generate all forecasts in one go without needing a persistent endpoint.
     </details>
 
-11. A company has developed a generative AI model for customer segmentation. The model has been deployed in the company's production environment for a long time. The company recently noticed some inconsistency in the model's responses. The company wants to evaluate model bias and drift. Which AWS service or feature meets these requirements?
-    - A. Amazon SageMaker Model Monitor
-    - B. Amazon SageMaker Clarify
-    - C. Amazon SageMaker Model Cards
-    - D. Amazon SageMaker Feature Store
+> [!NOTE]
+> **11.** A company has developed a generative AI model for customer segmentation. The model has been deployed in the company's production environment for a long time. The company recently noticed some inconsistency in the model's responses. The company wants to evaluate model bias and drift. Which AWS service or feature meets these requirements?
+>
+> - A. Amazon SageMaker Model Monitor
+> - B. Amazon SageMaker Clarify
+> - C. Amazon SageMaker Model Cards
+> - D. Amazon SageMaker Feature Store
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: SageMaker Model Monitor continuously collects inference and ground-truth data to automatically detect data drift, concept drift, and bias shifts in production models. By configuring baseline metrics and thresholds, the company can track inconsistencies in responses over time and receive alerts whenever bias or drift exceed acceptable limits.
-    </details>
+  Explanation: SageMaker Model Monitor continuously collects inference and ground-truth data to automatically detect data drift, concept drift, and bias shifts in production models. By configuring baseline metrics and thresholds, the company can track inconsistencies in responses over time and receive alerts whenever bias or drift exceed acceptable limits.
+</details>
 
-12. A company has signed up for Amazon Bedrock access to build applications. The company wants to restrict employee access to specific models available on Amazon Bedrock. Which solution meets these requirements?
-    - A. Use AWS Identity and Access Management (IAM) policies to restrict model access.
-    - B. Use AWS Security Token Service (AWS STS) to generate temporary credentials for model use.
-    - C. Use AWS Identity and Access Management (IAM) service roles to restrict model subscription.
-    - D. Use Amazon Inspector to monitor model access.
+> [!NOTE]
+> **12.** A company has signed up for Amazon Bedrock access to build applications. The company wants to restrict employee access to specific models available on Amazon Bedrock. Which solution meets these requirements?
+>
+> - A. Use AWS Identity and Access Management (IAM) policies to restrict model access.
+> - B. Use AWS Security Token Service (AWS STS) to generate temporary credentials for model use.
+> - C. Use AWS Identity and Access Management (IAM) service roles to restrict model subscription.
+> - D. Use Amazon Inspector to monitor model access.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: With IAM policies you can grant or deny Bedrock API actions scoped to specific model ARNs, ensuring employees can only invoke the exact models you authorize.
-    </details>
+  Explanation: With IAM policies you can grant or deny Bedrock API actions scoped to specific model ARNs, ensuring employees can only invoke the exact models you authorize.
+</details>
 
 13. Which ML technique uses training data that is labeled with the correct output values?
     - A. Supervised learning
@@ -192,29 +198,33 @@
       Explanation: Few-shot prompting provides the model with several example product descriptions that follow your desired format, enabling it to learn the pattern and generate new descriptions in the same style without further training.
     </details>
 
-17. A bank is fine-tuning a large language model (LLM) on Amazon Bedrock to assist customers with questions about their loans. The bank wants to ensure that the model does not reveal any private customer data. Which solution meets these requirements?
-    - A. Use Amazon Bedrock Guardrails.
-    - B. Remove personally identifiable information (PII) from the customer data before fine-tuning the LLM.
-    - C. Increase the Top-K parameter of the LLM.
-    - D. Store customer data in Amazon S3. Encrypt the data before fine-tuning the LLM.
+> [!NOTE]
+> **17.** A bank is fine-tuning a large language model (LLM) on Amazon Bedrock to assist customers with questions about their loans. The bank wants to ensure that the model does not reveal any private customer data. Which solution meets these requirements?
+>
+> - A. Use Amazon Bedrock Guardrails.
+> - B. Remove personally identifiable information (PII) from the customer data before fine-tuning the LLM.
+> - C. Increase the Top-K parameter of the LLM.
+> - D. Store customer data in Amazon S3. Encrypt the data before fine-tuning the LLM.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: Preprocessing your fine-tuning dataset to strip out names, account numbers, and other PII prevents the model from ever ingesting - or later regurgitating - private customer information. This data sanitization step is the most reliable way to guarantee that sensitive details aren’t embedded into the model.
-    </details>
+  Explanation: Preprocessing your fine-tuning dataset to strip out names, account numbers, and other PII prevents the model from ever ingesting - or later regurgitating - private customer information. This data sanitization step is the most reliable way to guarantee that sensitive details aren’t embedded into the model.
+</details>
 
-18. A grocery store wants to create a chatbot to help customers find products in the store. The chatbot must check the inventory in real time and provide the product location in the store. Which prompt engineering technique should the store use to build the chatbot?
-    - A. Zero-shot prompting
-    - B. Few-shot prompting
-    - C. Least-to-most prompting
-    - D. Reasoning and acting (ReAct) prompting
+> [!NOTE]
+> **18.** A grocery store wants to create a chatbot to help customers find products in the store. The chatbot must check the inventory in real time and provide the product location in the store. Which prompt engineering technique should the store use to build the chatbot?
+>
+> - A. Zero-shot prompting
+> - B. Few-shot prompting
+> - C. Least-to-most prompting
+> - D. Reasoning and acting (ReAct) prompting
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: ReAct prompting interleaves the model’s chain-of-thought reasoning with explicit “actions” (such as calling your real-time inventory API), then uses the API response to inform its final answer. By structuring your prompts to have the LLM think, choose the “CheckInventory” action with the product name, receive the live location data, and then respond to the user, you seamlessly integrate real-time lookups and precise product locations into the chatbot’s replies.
-    </details>
+  Explanation: ReAct prompting interleaves the model’s chain-of-thought reasoning with explicit “actions” (such as calling your real-time inventory API), then uses the API response to inform its final answer. By structuring your prompts to have the LLM think, choose the “CheckInventory” action with the product name, receive the live location data, and then respond to the user, you seamlessly integrate real-time lookups and precise product locations into the chatbot’s replies.
+</details>
 
 19. A company uses a third-party model on Amazon Bedrock to analyze confidential documents. The company is concerned about data privacy. Which statement describes how Amazon Bedrock protects data privacy?
     - A. User inputs and model outputs are anonymized and shared with third-party model providers.
@@ -252,29 +262,33 @@
       Explanation: Clustering is an unsupervised learning technique that automatically groups data points - in this case, customers with similar purchase histories and preferences - into segments without needing predefined labels, enabling personalized experiences.
     </details>
 
-22. A company wants to control employee access to publicly available foundation models (FMs). Which solution meets these requirements?
-    - A. Analyze cost and usage reports in AWS Cost Explorer.
-    - B. Download AWS security and compliance documents from AWS Artifact.
-    - C. Configure Amazon SageMaker JumpStart to restrict discoverable FMs.
-    - D. Build a hybrid search solution by using Amazon OpenSearch Service.
+> [!NOTE]
+> **22.** A company wants to control employee access to publicly available foundation models (FMs). Which solution meets these requirements?
+>
+> - A. Analyze cost and usage reports in AWS Cost Explorer.
+> - B. Download AWS security and compliance documents from AWS Artifact.
+> - C. Configure Amazon SageMaker JumpStart to restrict discoverable FMs.
+> - D. Build a hybrid search solution by using Amazon OpenSearch Service.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation:   SageMaker JumpStartlets you curate which publicly available foundation models appear inyour account’s model catalog. By using JumpStart’s employees from discovering or deploying any FMs you haven’t explicitly allowed.
-    </details>
+  Explanation:   SageMaker JumpStartlets you curate which publicly available foundation models appear inyour account’s model catalog. By using JumpStart’s employees from discovering or deploying any FMs you haven’t explicitly allowed.
+</details>
 
-23. A company has set up a translation tool to help its customer service team handle issues from customers around the world. The company wants to evaluate the performance of the translation tool. The company sets up a parallel data process that compares the responses from the tool to responses from actual humans. Both sets of responses are generated on the same set of documents. Which strategy should the company use to evaluate the translation tool?
-    - A. Use the Bilingual Evaluation Understudy (BLEU) score to estimate the absolute translation quality of the two methods.
-    - B. Use the Bilingual Evaluation Understudy (BLEU) score to estimate the relative translation quality of the two methods.
-    - C. Use the BERTScore to estimate the absolute translation quality of the two methods.
-    - D. Use the BERTScore to estimate the relative translation quality of the two methods.
+> [!NOTE]
+> **23.** A company has set up a translation tool to help its customer service team handle issues from customers around the world. The company wants to evaluate the performance of the translation tool. The company sets up a parallel data process that compares the responses from the tool to responses from actual humans. Both sets of responses are generated on the same set of documents. Which strategy should the company use to evaluate the translation tool?
+>
+> - A. Use the Bilingual Evaluation Understudy (BLEU) score to estimate the absolute translation quality of the two methods.
+> - B. Use the Bilingual Evaluation Understudy (BLEU) score to estimate the relative translation quality of the two methods.
+> - C. Use the BERTScore to estimate the absolute translation quality of the two methods.
+> - D. Use the BERTScore to estimate the relative translation quality of the two methods.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: BLEU measures n-gram overlap between a candidate translation and one or more reference translations. When you apply it to both the tool’s outputs and the human outputs on the same source documents, you get comparable scores that let you directly assess which approach yields better translations.
-    </details>
+  Explanation: BLEU measures n-gram overlap between a candidate translation and one or more reference translations. When you apply it to both the tool’s outputs and the human outputs on the same source documents, you get comparable scores that let you directly assess which approach yields better translations.
+</details>
 
 24. An AI practitioner wants to generate more diverse and more creative outputs from a large language model (LLM). How should the AI practitioner adjust the inference parameter?
     - A. Increase the temperature value.
@@ -361,17 +375,19 @@
       Explanation: RAG lets the chatbot pull in precise, up-to-date passages from your HR documentation at inference time, grounding its answers in the actual policy text and ensuring accuracy without overloading the LLM’s context window.
     </details>
 
-31. An education company is building a chatbot whose target audience is teenagers. The company is training a custom large language model (LLM). The company wants the chatbot to speak in the target audience's language style by using creative spelling and shortened words. Which metric will assess the LLM's performance?
-    - A. F1 score
-    - B. BERTScore
-    - C. Recall-Oriented Understudy for Gisting Evaluation (ROUGE)
-    - D. Bilingual Evaluation Understudy (BLEU) score
+> [!NOTE]
+> **31.** An education company is building a chatbot whose target audience is teenagers. The company is training a custom large language model (LLM). The company wants the chatbot to speak in the target audience's language style by using creative spelling and shortened words. Which metric will assess the LLM's performance?
+>
+> - A. F1 score
+> - B. BERTScore
+> - C. Recall-Oriented Understudy for Gisting Evaluation (ROUGE)
+> - D. Bilingual Evaluation Understudy (BLEU) score
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: BLEU evaluates surface-level n-gram overlap between the LLM’s outputs and reference examples—in this case, targets written in creative spelling and shorthand, making it well suited to measure how closely the model’s style matches the teenager-oriented language.
-    </details>
+  Explanation: BLEU evaluates surface-level n-gram overlap between the LLM’s outputs and reference examples—in this case, targets written in creative spelling and shorthand, making it well suited to measure how closely the model’s style matches the teenager-oriented language.
+</details>
 
 32. A customer service team is developing an application to analyze customer feedback and automatically classify the feedback into different categories. The categories include product quality, customer service, and delivery experience. Which AI concept does this scenario present?
     - A. Computer vision
@@ -385,29 +401,33 @@
       Explanation: Automatically analyzing and classifying free-text feedback into thematic categories is a core NLP task (text classification).
     </details>
 
-33. A financial services company must ensure that its generative AI-powered chatbot provides factual responses for regulatory compliance. Which solution prevents the underlying foundation model (FM) from hallucinating?
-    - A. Use AWS Config to query compliance metadata by using natural language.
-    - B. Configure Amazon Bedrock Guardrails to evaluate user inputs and model responses.
-    - C. Use Amazon Fraud Detector to detect potentially fraudulent online activities.
-    - D. Use AWS Audit Manager to prepare IT audit and compliance reports.
+> [!NOTE]
+> **33.** A financial services company must ensure that its generative AI-powered chatbot provides factual responses for regulatory compliance. Which solution prevents the underlying foundation model (FM) from hallucinating?
+>
+> - A. Use AWS Config to query compliance metadata by using natural language.
+> - B. Configure Amazon Bedrock Guardrails to evaluate user inputs and model responses.
+> - C. Use Amazon Fraud Detector to detect potentially fraudulent online activities.
+> - D. Use AWS Audit Manager to prepare IT audit and compliance reports.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: Amazon Bedrock Guardrails allows you to define rules and policies that evaluate and constrain both user inputs and model responses. By configuring guardrails, you can prevent the generative AI model from producing hallucinated or non-factual outputs, ensuring the chatbot adheres to compliance requirements and provides factual responses. This directly addresses the need to control hallucinations in generative AI systems for regulatory compliance.
-    </details>
+  Explanation: Amazon Bedrock Guardrails allows you to define rules and policies that evaluate and constrain both user inputs and model responses. By configuring guardrails, you can prevent the generative AI model from producing hallucinated or non-factual outputs, ensuring the chatbot adheres to compliance requirements and provides factual responses. This directly addresses the need to control hallucinations in generative AI systems for regulatory compliance.
+</details>
 
-34. A company has created multiple ML models. The company needs a solution for storing, managing, and versioning the models. Which AWS service or feature meets these requirements?
-    - A. AWS Audit Manager
-    - B. Amazon SageMaker Model Monitor
-    - C. Amazon SageMaker Model Registry
-    - D. Amazon SageMaker Canvas
+> [!NOTE]
+> **34.** A company has created multiple ML models. The company needs a solution for storing, managing, and versioning the models. Which AWS service or feature meets these requirements?
+>
+> - A. AWS Audit Manager
+> - B. Amazon SageMaker Model Monitor
+> - C. Amazon SageMaker Model Registry
+> - D. Amazon SageMaker Canvas
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: Amazon SageMaker Model Registry is the AWS service designed to store, manage, and version machine learning models. It provides a central repository for tracking model versions and managing their deployment status throughout the ML lifecycle.
-    </details>
+  Explanation: Amazon SageMaker Model Registry is the AWS service designed to store, manage, and version machine learning models. It provides a central repository for tracking model versions and managing their deployment status throughout the ML lifecycle.
+</details>
 
 35. An AI practitioner is building an ML model. The AI practitioner wants to provide model transparency and explainability to stakeholders. Which solution will meet these requirements?
     - A. Present the model Shapley values.
@@ -421,17 +441,19 @@
       Explanation: Presenting the model Shapley values provides transparency and explainability by showing how each feature contributes to individual predictions, helping stakeholders understand the reasoning behind the model’s outputs.
     </details>
 
-36. A company is developing an ML application. The application must automatically group similar customers and products based on their characteristics. Which ML strategy should the company use to meet these requirements?
-    - A. Unsupervised learning
-    - B. Supervised learning
-    - C. Reinforcement learning
-    - D. Semi-supervised learning
+> [!NOTE]
+> **36.** A company is developing an ML application. The application must automatically group similar customers and products based on their characteristics. Which ML strategy should the company use to meet these requirements?
+>
+> - A. Unsupervised learning
+> - B. Supervised learning
+> - C. Reinforcement learning
+> - D. Semi-supervised learning
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: Unsupervised learning is used to automatically group or cluster similar customers and products based on their characteristics without the need for labeled data. This strategy fits scenarios where the goal is to discover patterns or groupings in the data.
-    </details>
+  Explanation: Unsupervised learning is used to automatically group or cluster similar customers and products based on their characteristics without the need for labeled data. This strategy fits scenarios where the goal is to discover patterns or groupings in the data.
+</details>
 
 37. A news agency publishes articles in English. The agency wants to make articles available in other languages.   Which solution meets these requirements?
     - A. Add Amazon Transcribe to the company’s website.
@@ -517,17 +539,19 @@
       Explanation: Fine-tuning a large language model to refine the style of output messages requires training data consisting of paired input and output messages. These pairs allow the model to learn the relationship between the input provided and the desired styled output, ensuring the fine-tuned model produces responses with the intended style.
     </details>
 
-44. A healthcare company is building an AI solution to predict patient readmission within 30 days of patient discharge. The company has trained a model on historical patient data including medical history, demographics, and treatment specifications, to provide readmission predictions in real time. Which task describes AI model inference in this scenario?
-    - A. Gather historical patient readmission data.
-    - B. Use appropriate metrics and assess model performance.
-    - C. Use data to identify patient patterns and correlations.
-    - D. Use a trained model to predict patient readmission.
+> [!NOTE]
+> **44.** A healthcare company is building an AI solution to predict patient readmission within 30 days of patient discharge. The company has trained a model on historical patient data including medical history, demographics, and treatment specifications, to provide readmission predictions in real time. Which task describes AI model inference in this scenario?
+>
+> - A. Gather historical patient readmission data.
+> - B. Use appropriate metrics and assess model performance.
+> - C. Use data to identify patient patterns and correlations.
+> - D. Use a trained model to predict patient readmission.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: Model inference refers to the process of applying a trained model to new data—in this case, using the trained model to make real-time predictions about whether a patient will be readmitted within 30 days of discharge.
-    </details>
+  Explanation: Model inference refers to the process of applying a trained model to new data—in this case, using the trained model to make real-time predictions about whether a patient will be readmitted within 30 days of discharge.
+</details>
 
 45. A financial company wants to build workflows for human review of ML predictions. The company wants to define confidence thresholds for its use case and adjust the thresholds over time. Which AWS service meets these requirements?
     - A. Amazon Personalize

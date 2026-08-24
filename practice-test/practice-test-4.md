@@ -48,17 +48,19 @@
       Explanation: Amazon Translate is an AWS service that automates language translation using neural machine translation (NMT). It enables businesses to generate product descriptions in multiple languages quickly and accurately, making it the best choice for this task.
     </details
 
-5. Which AWS feature records details about ML instance data for governance and reporting?
-    - A. Amazon SageMaker Model Cards
-    - B. Amazon SageMaker Debugger
-    - C. Amazon SageMaker Model Monitor
-    - D. Amazon SageMaker JumpStart
+> [!NOTE]
+> **5.** Which AWS feature records details about ML instance data for governance and reporting?
+>
+> - A. Amazon SageMaker Model Cards
+> - B. Amazon SageMaker Debugger
+> - C. Amazon SageMaker Model Monitor
+> - D. Amazon SageMaker JumpStart
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: Amazon SageMaker Model Cards record key details about machine learning models, including intended use, training data, evaluation metrics, and compliance information. They support governance and reporting by providing a standardized way to document model information throughout its lifecycle.
-    </details>
+  Explanation: Amazon SageMaker Model Cards record key details about machine learning models, including intended use, training data, evaluation metrics, and compliance information. They support governance and reporting by providing a standardized way to document model information throughout its lifecycle.
+</details>
 
 6. A financial company is using ML to help with some of the company’s tasks. Which option is a use of generative AI models?
     - A. Summarizing customer complaints
@@ -72,17 +74,19 @@
       Explanation: Generative AI models are designed to generate new content such as text, images, or audio. Summarizing customer complaints involves generating concise versions of longer texts, which is a task well-suited for generative AI models like large language models.
     </details>
 
-7. A medical company wants to develop an AI application that can access structured patient records, extract relevant information, and generate concise summaries. Which solution will meet these requirements?
-    - A. Use Amazon Comprehend Medical to extract relevant medical entities and relationships. Apply rulebased logic to structure and format summaries.
-    - B. Use Amazon Personalize to analyze patient engagement patterns. Integrate the output with a general
-    - C. Use Amazon Textract to convert scanned documents into digital text. Design a keyword extraction
-    - D. Implement Amazon Kendra to provide a searchable index for medical records. Use a template-based
+> [!NOTE]
+> **7.** A medical company wants to develop an AI application that can access structured patient records, extract relevant information, and generate concise summaries. Which solution will meet these requirements?
+>
+> - A. Use Amazon Comprehend Medical to extract relevant medical entities and relationships. Apply rulebased logic to structure and format summaries.
+> - B. Use Amazon Personalize to analyze patient engagement patterns. Integrate the output with a general
+> - C. Use Amazon Textract to convert scanned documents into digital text. Design a keyword extraction
+> - D. Implement Amazon Kendra to provide a searchable index for medical records. Use a template-based
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: Amazon Comprehend Medical is specifically designed to extract structured medical information (such as medication, condition, test results) from unstructured text. By applying rule-based logic afterward, relevant data can be formatted into concise summaries, meeting both the extraction and summarization needs.
-    </details>
+  Explanation: Amazon Comprehend Medical is specifically designed to extract structured medical information (such as medication, condition, test results) from unstructured text. By applying rule-based logic afterward, relevant data can be formatted into concise summaries, meeting both the extraction and summarization needs.
+</details>
 
 8. Which option describes embeddings in the context of AI?
     - A. A method for compressing large datasets
@@ -144,17 +148,19 @@
       Explanation: A key characteristic of transformer models is their use of self-attention mechanisms, which allow the model to weigh the importance of different words in a sequence relative to each other, enabling a deep understanding of context and meaning across the entire input.
     </details>
 
-13. A financial company is using AI systems to obtain customer credit scores as part of the loan application process. The company wants to expand to a new market in a different geographic area. The company must ensure that it can operate in that geographic area. Which compliance laws should the company review?
-    - A. Local health data protection laws
-    - B. Local payment card data protection laws
-    - C. Local education privacy laws
-    - D. Local algorithm accountability laws
+> [!NOTE]
+> **13.** A financial company is using AI systems to obtain customer credit scores as part of the loan application process. The company wants to expand to a new market in a different geographic area. The company must ensure that it can operate in that geographic area. Which compliance laws should the company review?
+>
+> - A. Local health data protection laws
+> - B. Local payment card data protection laws
+> - C. Local education privacy laws
+> - D. Local algorithm accountability laws
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: When deploying AI systems that affect individuals, such as credit scoring, companies must comply with local algorithm accountability laws. These laws regulate the fairness, transparency, and impact of automated decision-making, ensuring ethical use of AI in new geographic regions.
-    </details>
+  Explanation: When deploying AI systems that affect individuals, such as credit scoring, companies must comply with local algorithm accountability laws. These laws regulate the fairness, transparency, and impact of automated decision-making, ensuring ethical use of AI in new geographic regions.
+</details>
 
 14. A company uses Amazon Bedrock for its generative AI application. The company wants to use Amazon Bedrock Guardrails to detect and filter harmful user inputs and model-generated outputs. Which content categories can the guardrails filter? (Choose two.)
     - A. Hate
@@ -168,29 +174,33 @@
       Explanation: Amazon Bedrock Guardrails provide configurable content filters to detect and block harmful content in generative AI applications. Specifically, they include filters for categories such as Hate and Violence, among others. These filters can be applied to both user inputs and model-generated outputs to ensure that the AI application adheres to responsible AI practices and organizational policies.
     </details>
 
-15. Which scenario describes a potential risk and limitation of prompt engineering in the context of a generative AI model?
-    - A. Prompt engineering does not ensure that the model always produces consistent and deterministic outputs, eliminating the need for validation.
-    - B. Prompt engineering could expose the model to vulnerabilities such as prompt injection attacks.
-    - C. Properly designed prompts reduce but do not eliminate the risk of data poisoning or model hijacking.
-    - D. Prompt engineering does not ensure that the model will consistently generate highly reliable outputs when working with real-world data.
+> [!NOTE]
+> **15.** Which scenario describes a potential risk and limitation of prompt engineering in the context of a generative AI model?
+>
+> - A. Prompt engineering does not ensure that the model always produces consistent and deterministic outputs, eliminating the need for validation.
+> - B. Prompt engineering could expose the model to vulnerabilities such as prompt injection attacks.
+> - C. Properly designed prompts reduce but do not eliminate the risk of data poisoning or model hijacking.
+> - D. Prompt engineering does not ensure that the model will consistently generate highly reliable outputs when working with real-world data.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: A key risk in prompt engineering is prompt injection, where attackers manipulate input prompts to alter a model's behavior or produce unintended outputs. This vulnerability arises from the model's sensitivity to input structure and content, making it a critical limitation in secure prompt design.
-    </details>
+  Explanation: A key risk in prompt engineering is prompt injection, where attackers manipulate input prompts to alter a model's behavior or produce unintended outputs. This vulnerability arises from the model's sensitivity to input structure and content, making it a critical limitation in secure prompt design.
+</details>
 
-16. A publishing company built a Retrieval Augmented Generation (RAG) based solution to give its users the ability to interact with published content. New content is published daily. The company wants to provide a near real-time experience to users. Which steps in the RAG pipeline should the company implement by using offline batch processing to meet these requirements? (Choose two.)
-    - A. Generation of content embeddings
-    - B. Generation of embeddings for user queries
-    - C. Creation of the search index
-    - D. Retrieval of relevant content
+> [!NOTE]
+> **16.** A publishing company built a Retrieval Augmented Generation (RAG) based solution to give its users the ability to interact with published content. New content is published daily. The company wants to provide a near real-time experience to users. Which steps in the RAG pipeline should the company implement by using offline batch processing to meet these requirements? (Choose two.)
+>
+> - A. Generation of content embeddings
+> - B. Generation of embeddings for user queries
+> - C. Creation of the search index
+> - D. Retrieval of relevant content
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: AC
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: AC
 
-      Explanation: Generation of content embeddings New or updated documents can be converted to vector representations in periodic batches (e.g., hourly, nightly). Because a document’s embedding remains fixed until the document itself changes, this step does not have to run for every user query, making it ideal for offline processing. Creation of the search index After new embeddings are produced, the vector (or hybrid) index can be rebuilt or incrementally updated in batch mode. Index construction is computationally intensive but happens infrequently relative to user requests, so running it offline avoids adding latency to real-time interactions.
-    </details>
+  Explanation: Generation of content embeddings New or updated documents can be converted to vector representations in periodic batches (e.g., hourly, nightly). Because a document’s embedding remains fixed until the document itself changes, this step does not have to run for every user query, making it ideal for offline processing. Creation of the search index After new embeddings are produced, the vector (or hybrid) index can be rebuilt or incrementally updated in batch mode. Index construction is computationally intensive but happens infrequently relative to user requests, so running it offline avoids adding latency to real-time interactions.
+</details>
 
 17. Which technique breaks a complex task into smaller subtasks that are sent sequentially to a large language model (LLM)?
     - A. One-shot prompting
@@ -240,17 +250,19 @@
       Explanation: SageMaker Model Monitor continuously measures data and prediction quality in production, detects deviations from your model’s baseline (such as data drift or accuracy degradation), and alerts you so you can investigate and resolve issues promptly.
     </details>
 
-21. What is the purpose of chunking in Retrieval Augmented Generation (RAG)?
-    - A. To avoid database storage limitations for large text documents by storing parts or chunks of the text
-    - B. To improve efficiency by avoiding the need to convert large text into vector embeddings
-    - C. To improve the contextual relevancy of results retrieved from the vector index
-    - D. To decrease the cost of storage by storing parts or chunks of the text
+> [!NOTE]
+> **21.** What is the purpose of chunking in Retrieval Augmented Generation (RAG)?
+>
+> - A. To avoid database storage limitations for large text documents by storing parts or chunks of the text
+> - B. To improve efficiency by avoiding the need to convert large text into vector embeddings
+> - C. To improve the contextual relevancy of results retrieved from the vector index
+> - D. To decrease the cost of storage by storing parts or chunks of the text
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: By splitting large documents into smaller, semantically coherent chunks, the retrieval system can match and return only the most context-relevant segments for a given query, enhancing the precision and accuracy of the generated responses.
-    </details>
+  Explanation: By splitting large documents into smaller, semantically coherent chunks, the retrieval system can match and return only the most context-relevant segments for a given query, enhancing the precision and accuracy of the generated responses.
+</details>
 
 22. A company is developing an editorial assistant application that uses generative AI. During the pilot phase, usage is low and application performance is not a concern. The company cannot predict application usage after the application is fully deployed and wants to minimize application costs. Which solution will meet these requirements?
     - A. Use GPU-powered Amazon EC2 instances.
@@ -288,17 +300,19 @@
       Explanation: Precision measures the proportion of flagged cases that are truly fraudulent (TP / [TP + FP]). Maximizing precision reduces the number of false positives employees must review, cutting down wasted effort on nonfraudulent cases.
     </details>
 
-25. A company designed an AI-powered agent to answer customer inquiries based on product manuals. Which strategy can improve customer confidence levels in the AI-powered agent's responses?
-    - A. Writing the confidence level in the response
-    - B. Including referenced product manual links in the response
-    - C. Designing an agent avatar that looks like a computer
-    - D. Training the agent to respond in the company's language style
+> [!NOTE]
+> **25.** A company designed an AI-powered agent to answer customer inquiries based on product manuals. Which strategy can improve customer confidence levels in the AI-powered agent's responses?
+>
+> - A. Writing the confidence level in the response
+> - B. Including referenced product manual links in the response
+> - C. Designing an agent avatar that looks like a computer
+> - D. Training the agent to respond in the company's language style
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: Providing direct links to the exact sections of the product manual that support each answer lets customers verify and trust the information, boosting confidence in the AI agent’s responses.
-    </details>
+  Explanation: Providing direct links to the exact sections of the product manual that support each answer lets customers verify and trust the information, boosting confidence in the AI agent’s responses.
+</details>
 
 26. A hospital developed an AI system to provide personalized treatment recommendations for patients. The AI system must provide the rationale behind the recommendations and make the insights accessible to doctors and patients.     Which human-centered design principle does this scenario present?
     - A. Explainability
@@ -336,17 +350,19 @@
       Explanation: Provisioned Throughput is priced lower per request when you have a predictable, steady volume of calls. By committing to a fixed throughput level, you secure the necessary capacity at a reduced unit cost compared to on-demand, making it the most cost-effective choice for steady-minute usage.
     </details>
 
-29. Which technique involves training AI models on labeled datasets to adapt the models to specific industry terminology and requirements?
-    - A. Data augmentation
-    - B. Fine-tuning
-    - C. Model quantization
-    - D. Continuous pre-training
+> [!NOTE]
+> **29.** Which technique involves training AI models on labeled datasets to adapt the models to specific industry terminology and requirements?
+>
+> - A. Data augmentation
+> - B. Fine-tuning
+> - C. Model quantization
+> - D. Continuous pre-training
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: Fine-tuning takes a pre-trained model and continues training it on a labeled, domain-specific dataset so the model learns industry terminology and task nuances directly from that specialized data.
-    </details>
+  Explanation: Fine-tuning takes a pre-trained model and continues training it on a labeled, domain-specific dataset so the model learns industry terminology and task nuances directly from that specialized data.
+</details>
 
 30. A company is creating an agent for its application by using Amazon Bedrock Agents. The agent is performing well, but the company wants to improve the agent’s accuracy by providing some specific examples. Which solution meets these requirements?
     - A. Modify the advanced prompts for the agent to include the examples.
@@ -360,17 +376,19 @@
       Explanation: Embedding specific input–output examples directly into the agent’s advanced prompt (few-shot prompting) guides the model toward more accurate behavior without retraining or additional tooling.
     </details>
 
-31. Which option is a benefit of using infrastructure as code (IaC) in machine learning operations (MLOps)?
-    - A. IaC eliminates the need for hyperparameter tuning.
-    - B. IaC always provisions powerful compute instances, contributing to the training of more accurate models.
-    - C. IaC streamlines the deployment of scalable and consistent ML workloads in cloud environments.
-    - D. IaC minimizes overall expenses by deploying only low-cost instances.
+> [!NOTE]
+> **31.** Which option is a benefit of using infrastructure as code (IaC) in machine learning operations (MLOps)?
+>
+> - A. IaC eliminates the need for hyperparameter tuning.
+> - B. IaC always provisions powerful compute instances, contributing to the training of more accurate models.
+> - C. IaC streamlines the deployment of scalable and consistent ML workloads in cloud environments.
+> - D. IaC minimizes overall expenses by deploying only low-cost instances.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: By describing infrastructure in code, teams can version, automate, and repeatably provision resources, ensuring that ML training and inference environments are consistent, scalable, and easy to reproduce across development, testing, and production.
-    </details>
+  Explanation: By describing infrastructure in code, teams can version, automate, and repeatably provision resources, ensuring that ML training and inference environments are consistent, scalable, and easy to reproduce across development, testing, and production.
+</details>
 
 32. A company wants to fine-tune a foundation model (FM) to answer questions for a specific domain. The company wants to use instruction-based fine-tuning. How should the company prepare the training data?
     - A. Gather company internal documents and industry-specific materials. Merge the documents and
@@ -420,17 +438,19 @@
       Explanation: Binary classification models are designed to distinguish between two classes - fraudulent versus nonfraudulent transactions - making them the appropriate choice for this use case.
     </details>
 
-36. A hospital wants to use a generative AI solution with speech-to-text functionality to help improve employee skills in dictating clinical notes. Which AWS service meets these requirements?
-    - A. Amazon Q Developer
-    - B. Amazon Polly
-    - C. Amazon Rekognition
-    - D. AWS HealthScribe
+> [!NOTE]
+> **36.** A hospital wants to use a generative AI solution with speech-to-text functionality to help improve employee skills in dictating clinical notes. Which AWS service meets these requirements?
+>
+> - A. Amazon Q Developer
+> - B. Amazon Polly
+> - C. Amazon Rekognition
+> - D. AWS HealthScribe
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: AWS HealthScribe is specifically designed for healthcare workflows, providing accurate speech-to-text transcription of clinical conversations and generating structured clinical notes, meeting the hospital’s need to improve employee dictation of clinical documentation.
-    </details>
+  Explanation: AWS HealthScribe is specifically designed for healthcare workflows, providing accurate speech-to-text transcription of clinical conversations and generating structured clinical notes, meeting the hospital’s need to improve employee dictation of clinical documentation.
+</details>
 
 37. Which type of AI model makes numeric predictions?
     - A. Diffusion
@@ -480,29 +500,33 @@
       Explanation: AWS Artifact provides on-demand access to AWS’s compliance reports and certifications (for example, ISO, SOC, GDPR), enabling the company to demonstrate its generative AI workloads and data handling practices adhere to international regulatory requirements.
     </details>
 
-41. A medical company wants to modernize its onsite information processing application. The company wants to use generative AI to respond to medical questions from patients.     Which AWS service should the company use to ensure responsible AI for the application?
-    - A. Guardrails for Amazon Bedrock
-    - B. Amazon Inspector
-    - C. Amazon Rekognition
-    - D. AWS Trusted Advisor
+> [!NOTE]
+> **41.** A medical company wants to modernize its onsite information processing application. The company wants to use generative AI to respond to medical questions from patients.     Which AWS service should the company use to ensure responsible AI for the application?
+>
+> - A. Guardrails for Amazon Bedrock
+> - B. Amazon Inspector
+> - C. Amazon Rekognition
+> - D. AWS Trusted Advisor
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: Guardrails for Amazon Bedrock let you define and enforce safety, compliance, and bias controls on generative AI workloads. By embedding these guardrails into your application, you can ensure that patientfacing responses meet medical accuracy, privacy, and regulatory requirements without having to build custom monitoring or filtering pipelines yourself.
-    </details>
+  Explanation: Guardrails for Amazon Bedrock let you define and enforce safety, compliance, and bias controls on generative AI workloads. By embedding these guardrails into your application, you can ensure that patientfacing responses meet medical accuracy, privacy, and regulatory requirements without having to build custom monitoring or filtering pipelines yourself.
+</details>
 
-42. Which metric is used to evaluate the performance of foundation models (FMs) for text summarization tasks?
-    - A. F1 score
-    - B. Bilingual Evaluation Understudy (BLEU) score
-    - C. Accuracy
-    - D. Mean squared error (MSE)
+> [!NOTE]
+> **42.** Which metric is used to evaluate the performance of foundation models (FMs) for text summarization tasks?
+>
+> - A. F1 score
+> - B. Bilingual Evaluation Understudy (BLEU) score
+> - C. Accuracy
+> - D. Mean squared error (MSE)
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: Text summarization quality is most commonly assessed using ROUGE metrics, which report recall, precision, and an F1-score that balances the two. The ROUGE-F1 (often simply called the F1 score in this context) measures how well the model’s summary overlaps with reference summaries, making it the standard choice for evaluating foundation models on summarization tasks.
-    </details>
+  Explanation: Text summarization quality is most commonly assessed using ROUGE metrics, which report recall, precision, and an F1-score that balances the two. The ROUGE-F1 (often simply called the F1 score in this context) measures how well the model’s summary overlaps with reference summaries, making it the standard choice for evaluating foundation models on summarization tasks.
+</details>
 
 43. What is the benefit of fine-tuning a foundation model (FM)?
     - A. Fine-tuning reduces the FM's size and complexity and enables slower inference.
@@ -516,17 +540,19 @@
       Explanation: By updating the model’s weights with task-relevant examples, fine-tuning sharpens its understanding of domain-specific language and objectives, yielding higher accuracy and relevance on that particular task.
     </details>
 
-44. A company wants to improve its chatbot's responses to match the company's desired tone. The company has 100 examples of high-quality conversations between customer service agents and customers. The company wants to use this data to incorporate company tone into the chatbot's responses.  Which solution meets these requirements?
-    - A. Use Amazon Personalize to generate responses.
-    - B. Create an Amazon SageMaker HyperPod pre-training job.
-    - C. Host the model by using Amazon SageMaker. Use TensorRT for large language model (LLM)
-    - D. Create an Amazon Bedrock fine-tuning job.
+> [!NOTE]
+> **44.** A company wants to improve its chatbot's responses to match the company's desired tone. The company has 100 examples of high-quality conversations between customer service agents and customers. The company wants to use this data to incorporate company tone into the chatbot's responses.  Which solution meets these requirements?
+>
+> - A. Use Amazon Personalize to generate responses.
+> - B. Create an Amazon SageMaker HyperPod pre-training job.
+> - C. Host the model by using Amazon SageMaker. Use TensorRT for large language model (LLM)
+> - D. Create an Amazon Bedrock fine-tuning job.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: Bedrock’s fine-tuning lets you adapt a foundation model on your own conversation examples—in this case, the 100 high-quality transcripts to instill your company’s tone directly into the model’s response generation.
-    </details>
+  Explanation: Bedrock’s fine-tuning lets you adapt a foundation model on your own conversation examples—in this case, the 100 high-quality transcripts to instill your company’s tone directly into the model’s response generation.
+</details>
 
 45. An ecommerce company is using a chatbot to automate the customer order submission process. The chatbot is powered by AI and is available to customers directly from the company's website 24 hours a day, 7 days a week. Which option is an AI system input vulnerability that the company needs to resolve before the chatbot is made available?
     - A. Data leakage
@@ -552,47 +578,51 @@
       Explanation: Amazon Bedrock’s built-in content moderation lets you define categories or keywords (e.g., hate speech, discriminatory language) and automatically block or filter any user inputs or outputs that fall under those topics. By configuring Bedrock’s safety filters with your predefined “disallowed” categories, the application will prevent discriminatory content from ever being posted.
     </details>
 
-47. Which statements about model latent space are correct? (Choose 2)
-    - A. It represents the model's internal understanding of relationships
-    - B. It is only used for image processing
-    - C. It enables semantic similarities between different inputs
-    - D. It requires human supervision to maintain
-    - E. It must be stored in a specific database type
+> [!NOTE]
+> **47.** Which statements about model latent space are correct? (Choose 2)
+>
+> - A. It represents the model's internal understanding of relationships
+> - B. It is only used for image processing
+> - C. It enables semantic similarities between different inputs
+> - D. It requires human supervision to maintain
+> - E. It must be stored in a specific database type
 
-    <details markdown=1><summary markdown="span">Answer</summary>
+<details markdown=1><summary markdown="span">Answer</summary>
 
-      Correct answer: A, C
+  Correct answer: A, C
 
-      Explanation:
-      Model latent space:
-      - Represents the model's internal understanding and organization of concepts
-      - Enables computation of semantic similarities between different inputs
-      - Facilitates transfer learning and generalization
-      - Supports various types of data representations
+  Explanation:
+  Model latent space:
+  - Represents the model's internal understanding and organization of concepts
+  - Enables computation of semantic similarities between different inputs
+  - Facilitates transfer learning and generalization
+  - Supports various types of data representations
 
-      **Task Reference**: This concept is referenced in Task Statement 3.2 under concepts of prompt engineering and model architecture.
-    </details>
+  **Task Reference**: This concept is referenced in Task Statement 3.2 under concepts of prompt engineering and model architecture.
+</details>
 
-48. What are the primary use cases for storing embeddings in a vector database like Amazon OpenSearch Service? (Choose 2)
-    - A. Semantic search implementation
-    - B. Website content management
-    - C. Similarity-based recommendations
-    - D. Email routing
-    - E. Network traffic analysis
+> [!NOTE]
+> **48.** What are the primary use cases for storing embeddings in a vector database like Amazon OpenSearch Service? (Choose 2)
+>
+> - A. Semantic search implementation
+> - B. Website content management
+> - C. Similarity-based recommendations
+> - D. Email routing
+> - E. Network traffic analysis
 
-    <details markdown=1><summary markdown="span">Answer</summary>
+<details markdown=1><summary markdown="span">Answer</summary>
 
-      Correct answer: A, C
+  Correct answer: A, C
 
-      Explanation:
-      Vector databases are essential for:
-      - Implementing semantic search by finding similar vectors
-      - Building recommendation systems based on content similarity
-      - Supporting RAG (Retrieval Augmented Generation)
-      - Enabling efficient nearest neighbor search at scale
+  Explanation:
+  Vector databases are essential for:
+  - Implementing semantic search by finding similar vectors
+  - Building recommendation systems based on content similarity
+  - Supporting RAG (Retrieval Augmented Generation)
+  - Enabling efficient nearest neighbor search at scale
 
-      **Task Reference**: This aligns with Task Statement 3.1 regarding vector database applications and RAG implementations.
-    </details>
+  **Task Reference**: This aligns with Task Statement 3.1 regarding vector database applications and RAG implementations.
+</details>
 
 49. How does top-p (nucleus) sampling differ from traditional temperature-based sampling?
     - A. It samples from the smallest possible token set
@@ -614,23 +644,25 @@
       **Task Reference**: This relates to Task Statement 3.1 regarding inference parameters and their effects on model outputs.
     </details>
 
-50. Which features of Amazon Aurora with pgvector are most important for AI applications? (Choose 2)
-    - A. Vector similarity search capabilities
-    - B. Traditional SQL operations
-    - C. Integration with structured data
-    - D. Web hosting features
-    - E. Email processing
+> [!NOTE]
+> **50.** Which features of Amazon Aurora with pgvector are most important for AI applications? (Choose 2)
+>
+> - A. Vector similarity search capabilities
+> - B. Traditional SQL operations
+> - C. Integration with structured data
+> - D. Web hosting features
+> - E. Email processing
 
-    <details markdown=1><summary markdown="span">Answer</summary>
+<details markdown=1><summary markdown="span">Answer</summary>
 
-      Correct answer: A, C
+  Correct answer: A, C
 
-      Explanation:
-      Key features include:
-      - Vector similarity search for finding related content
-      - Ability to combine traditional structured data with vector operations
-      - SQL interface for vector operations
-      - Scalable vector storage and querying
+  Explanation:
+  Key features include:
+  - Vector similarity search for finding related content
+  - Ability to combine traditional structured data with vector operations
+  - SQL interface for vector operations
+  - Scalable vector storage and querying
 
-      **Task Reference**: This relates to Task Statement 3.1 regarding storage and querying of embeddings in databases.
-    </details>
+  **Task Reference**: This relates to Task Statement 3.1 regarding storage and querying of embeddings in databases.
+</details>
