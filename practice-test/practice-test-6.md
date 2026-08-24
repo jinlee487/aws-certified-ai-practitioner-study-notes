@@ -36,29 +36,33 @@
       Explanation: Amazon Bedrock Guardrails enable you to implement safeguards that filter out harmful or inappropriate content in both user input prompts and chatbot responses, ensuring safe and compliant chatbot interactions.
     </details>
 
-4. A company wants to learn about generative AI applications in an experimental environment.   Which solution will meet this requirement MOST cost-effectively?
-    - A. Amazon Q Developer
-    - B. Amazon SageMaker JumpStart
-    - C. Amazon Bedrock PartyRock
-    - D. Amazon Q Business
+> [!NOTE]
+> **4.** A company wants to learn about generative AI applications in an experimental environment.   Which solution will meet this requirement MOST cost-effectively?
+>
+> - A. Amazon Q Developer
+> - B. Amazon SageMaker JumpStart
+> - C. Amazon Bedrock PartyRock
+> - D. Amazon Q Business
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: Amazon Bedrock PartyRock provides a highly cost-effective and experimental environment for learning about generative AI applications, allowing users to quickly build, test, and iterate on AI apps without incurring significant costs.
-    </details>
+  Explanation: Amazon Bedrock PartyRock provides a highly cost-effective and experimental environment for learning about generative AI applications, allowing users to quickly build, test, and iterate on AI apps without incurring significant costs.
+</details>
 
-5. A company needs to collect a large dataset to train an AI assistant in a specific content area. Which dataset will meet this requirement?
-    - A. Diverse conversations that use relevant terminology
-    - B. Time series data of general purpose historical sales
-    - C. Sentiment analysis of news articles
-    - D. Unique product IDs and corresponding user IDs
+> [!NOTE]
+> **5.** A company needs to collect a large dataset to train an AI assistant in a specific content area. Which dataset will meet this requirement?
+>
+> - A. Diverse conversations that use relevant terminology
+> - B. Time series data of general purpose historical sales
+> - C. Sentiment analysis of news articles
+> - D. Unique product IDs and corresponding user IDs
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation: To train an AI assistant for a specific content area, you need a large dataset of diverse conversations that incorporate the relevant terminology and context for that area. This enables the assistant to learn how to respond accurately and appropriately within the targeted subject.
-    </details>
+  Explanation: To train an AI assistant for a specific content area, you need a large dataset of diverse conversations that incorporate the relevant terminology and context for that area. This enables the assistant to learn how to respond accurately and appropriately within the targeted subject.
+</details>
 
 6. A financial company is developing a generative AI application for loan approval decisions. The company needs the application output to be responsible and fair. Which solution meets these requirements?
     - A. Review the training data to check for biases. Include data from all demographics in the training data.
@@ -108,17 +112,19 @@
       Explanation: Model interpretability refers to understanding how a model makes its predictions, providing insights into the reasoning behind the model’s outputs.
     </details>
 
-10. A company wants to identify groups for its customers based on the customers’ demographics and buying patterns. Which algorithm should the company use to meet this requirement?
-    - A. K-nearest neighbors (k-NN)
-    - B. K-means
-    - C. Decision tree
-    - D. Support vector machine
+> [!NOTE]
+> **10.** A company wants to identify groups for its customers based on the customers’ demographics and buying patterns. Which algorithm should the company use to meet this requirement?
+>
+> - A. K-nearest neighbors (k-NN)
+> - B. K-means
+> - C. Decision tree
+> - D. Support vector machine
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: K-means is a clustering algorithm commonly used to identify and group customers based on shared characteristics such as demographics and buying patterns, making it suitable for customer segmentation tasks.
-    </details>
+  Explanation: K-means is a clustering algorithm commonly used to identify and group customers based on shared characteristics such as demographics and buying patterns, making it suitable for customer segmentation tasks.
+</details>
 
 11. A company is using an Amazon Nova Canvas model to generate images. The model generates images successfully. The company needs to prevent the model from including specific items in the generated images. Which solution will meet this requirement?
     - A. Use a higher temperature value.
@@ -168,17 +174,19 @@
       Explanation: Continued pre-training involves further training a foundation model (FM) on internal documents, allowing the model to better understand and generate content specific to the company's context and requirements. This approach customizes the FM using the company’s own data.
     </details>
 
-15. A company is monitoring a predictive model by using Amazon SageMaker Model Monitor. The company notices data drift beyond a defined threshold. The company wants to mitigate a potentially adverse impact on the predictive model. Which solution will meet these requirements?
-    - A. Restart the SageMaker AI endpoint.
-    - B. Adjust the monitoring sensitivity.
-    - C. Re-train the model with fresh data.
-    - D. Set up experiments tracking.
+> [!NOTE]
+> **15.** A company is monitoring a predictive model by using Amazon SageMaker Model Monitor. The company notices data drift beyond a defined threshold. The company wants to mitigate a potentially adverse impact on the predictive model. Which solution will meet these requirements?
+>
+> - A. Restart the SageMaker AI endpoint.
+> - B. Adjust the monitoring sensitivity.
+> - C. Re-train the model with fresh data.
+> - D. Set up experiments tracking.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: When Amazon SageMaker Model Monitor detects data drift beyond a defined threshold, it indicates that the current data differs from what the model was trained on. Retraining the model with recent data ensures it adapts to new patterns and maintains predictive accuracy.
-    </details>
+  Explanation: When Amazon SageMaker Model Monitor detects data drift beyond a defined threshold, it indicates that the current data differs from what the model was trained on. Retraining the model with recent data ensures it adapts to new patterns and maintains predictive accuracy.
+</details>
 
 16. A financial company uses a generative AI model to assign credit limits to new customers. The company wants to make the decision-making process of the model more transparent to its customers. Which solution meets these requirements?
     - A. Use a rule-based system instead of an ML model.
@@ -228,17 +236,19 @@
       Explanation: The ROUGE metric is widely used to evaluate the quality of summaries generated by language models, as it measures the overlap between the generated summary and reference summaries in terms of recall, precision, and F1-score for n-grams and sequences.
     </details>
 
-20. A research group wants to test different generative AI models to create research papers. The research group has defined a prompt and needs a method to assess the models’ output. The research group wants to use a team of scientists to perform the output assessments. Which solution will meet these requirements?
-    - A. Use automatic evaluation on Amazon Personalize.
-    - B. Use content moderation on Amazon Rekognition.
-    - C. Use model evaluation on Amazon Bedrock.
-    - D. Use sentiment analysis on Amazon Comprehend.
+> [!NOTE]
+> **20.** A research group wants to test different generative AI models to create research papers. The research group has defined a prompt and needs a method to assess the models’ output. The research group wants to use a team of scientists to perform the output assessments. Which solution will meet these requirements?
+>
+> - A. Use automatic evaluation on Amazon Personalize.
+> - B. Use content moderation on Amazon Rekognition.
+> - C. Use model evaluation on Amazon Bedrock.
+> - D. Use sentiment analysis on Amazon Comprehend.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: Amazon Bedrock provides model evaluation capabilities, allowing a team of scientists to manually assess and compare the outputs of different generative AI models based on defined prompts and criteria. This meets the requirement for human-in-the-loop model output evaluation.
-    </details>
+  Explanation: Amazon Bedrock provides model evaluation capabilities, allowing a team of scientists to manually assess and compare the outputs of different generative AI models based on defined prompts and criteria. This meets the requirement for human-in-the-loop model output evaluation.
+</details>
 
 21. An AI practitioner wants to evaluate ML models. The AI practitioner wants to provide explanations of model predictions to customers and stakeholders. Which AWS service or feature will meet these requirements?
     - A. Amazon QuickSight
@@ -288,17 +298,19 @@
       Explanation: A large language model (LLM) can analyze unstructured text using NLP techniques to accurately determine the sentiment (positive, negative, or neutral) of user feedback. This approach is well-suited for handling large volumes of text data.
     </details>
 
-25. RAG improves LLMs by incorporating information from external data sources at query time. A company wants to create an AI solution to generate images and descriptions for a product catalog. The company needs to select a foundation model (FM) for this solution. The company must consider the output types of each FM. Which FM characteristic is the company evaluating?
-    - A. Latency
-    - B. Model size
-    - C. Model customization
-    - D. Modality
+> [!NOTE]
+> **25.** RAG improves LLMs by incorporating information from external data sources at query time. A company wants to create an AI solution to generate images and descriptions for a product catalog. The company needs to select a foundation model (FM) for this solution. The company must consider the output types of each FM. Which FM characteristic is the company evaluating?
+>
+> - A. Latency
+> - B. Model size
+> - C. Model customization
+> - D. Modality
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: Modality refers to the types of input and output data a foundation model can handle, such as text, images, or both. Evaluating modality ensures the selected FM can generate both images and text descriptions for the product catalog.
-    </details>
+  Explanation: Modality refers to the types of input and output data a foundation model can handle, such as text, images, or both. Evaluating modality ensures the selected FM can generate both images and text descriptions for the product catalog.
+</details>
 
 26. A company wants to use an ML model to analyze customer reviews on social media. The model must determine if each review has a neutral, positive, or negative sentiment. Which model evaluation strategy will meet these requirements?
     - A. Open-ended generation
@@ -324,41 +336,47 @@
       Explanation: Clustering data points based on similarity is an example of unsupervised learning, where the algorithm groups data without using labeled examples.
     </details>
 
-28. An online learning company with large volumes of education materials wants to use enterprise search. Which AWS service meets these requirements?
-    - A. Amazon Comprehend
-    - B. Amazon Textract
-    - C. Amazon Kendra
-    - D. Amazon Personalize
+> [!NOTE]
+> **28.** An online learning company with large volumes of education materials wants to use enterprise search. Which AWS service meets these requirements?
+>
+> - A. Amazon Comprehend
+> - B. Amazon Textract
+> - C. Amazon Kendra
+> - D. Amazon Personalize
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: Amazon Kendra is an intelligent enterprise search service that enables organizations to search large volumes of unstructured data, such as educational materials, making it ideal for enterprise search needs.
-    </details>
+  Explanation: Amazon Kendra is an intelligent enterprise search service that enables organizations to search large volumes of unstructured data, such as educational materials, making it ideal for enterprise search needs.
+</details>
 
-29. A company creates video content. The company wants to use generative AI to generate new creative content and to reduce video creation time. Which solution will meet these requirements in the MOST operationally efficient way?
-    - A. Use the Amazon Titan Image Generator model on Amazon Bedrock to generate intermediate images. Use video editing software to create videos.
-    - B. Use the Amazon Nova Canvas model on Amazon Bedrock to generate intermediate images. Use video editing software to create videos.
-    - C. Use the Amazon Nova Reel model on Amazon Bedrock to generate videos.
-    - D. Use the Amazon Nova Pro model on Amazon Bedrock to generate videos.
+> [!NOTE]
+> **29.** A company creates video content. The company wants to use generative AI to generate new creative content and to reduce video creation time. Which solution will meet these requirements in the MOST operationally efficient way?
+>
+> - A. Use the Amazon Titan Image Generator model on Amazon Bedrock to generate intermediate images. Use video editing software to create videos.
+> - B. Use the Amazon Nova Canvas model on Amazon Bedrock to generate intermediate images. Use video editing software to create videos.
+> - C. Use the Amazon Nova Reel model on Amazon Bedrock to generate videos.
+> - D. Use the Amazon Nova Pro model on Amazon Bedrock to generate videos.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: The Amazon Nova Reel model on Amazon Bedrock is specifically designed for generative video creation, enabling the company to efficiently generate new creative content and significantly reduce video creation time in an operationally efficient manner.
-    </details>
+  Explanation: The Amazon Nova Reel model on Amazon Bedrock is specifically designed for generative video creation, enabling the company to efficiently generate new creative content and significantly reduce video creation time in an operationally efficient manner.
+</details>
 
-30. A company is training ML models on datasets. The datasets contain some classes that have more examples than other classes. The company wants to measure how well the model balances detecting and labeling the classes. Which metric should the company use?
-    - A. Accuracy
-    - B. Recall
-    - C. Precision
-    - D. F1 score
+> [!NOTE]
+> **30.** A company is training ML models on datasets. The datasets contain some classes that have more examples than other classes. The company wants to measure how well the model balances detecting and labeling the classes. Which metric should the company use?
+>
+> - A. Accuracy
+> - B. Recall
+> - C. Precision
+> - D. F1 score
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: The F1 score is the harmonic mean of precision and recall, making it especially useful for evaluating model performance on datasets with class imbalance. It measures how well the model balances detecting (recall) and correctly labeling (precision) all classes.
-    </details>
+  Explanation: The F1 score is the harmonic mean of precision and recall, making it especially useful for evaluating model performance on datasets with class imbalance. It measures how well the model balances detecting (recall) and correctly labeling (precision) all classes.
+</details>
 
 31. A company is analyzing financial transaction records. The company categorizes the records as either personal or business. The company inserts the categories into the transaction records. Which data preparation step does this describe?
     - A. Data encoding
@@ -396,29 +414,33 @@
       Explanation: SageMaker Clarify provides tools for model interpretability, allowing you to visualize and understand how different input features influence the behavior and predictions of your deployed model.
     </details>
 
-34. A company wants to assess internet quality in remote areas of the world. The company needs to collect internet speed data and store the data in Amazon RDS. The company will analyze internet speed variation throughout each day. The company wants to create an AI model to predict potential internet disruptions. Which type of data should the company collect for this task?
-    - A. Tabular data
-    - B. Text data
-    - C. Time series data
-    - D. Audio data
+> [!NOTE]
+> **34.** A company wants to assess internet quality in remote areas of the world. The company needs to collect internet speed data and store the data in Amazon RDS. The company will analyze internet speed variation throughout each day. The company wants to create an AI model to predict potential internet disruptions. Which type of data should the company collect for this task?
+>
+> - A. Tabular data
+> - B. Text data
+> - C. Time series data
+> - D. Audio data
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: Time series data consists of measurements (such as internet speed) collected over time, which is essential for analyzing variations throughout the day and for building predictive models of potential internet disruptions.
-    </details>
+  Explanation: Time series data consists of measurements (such as internet speed) collected over time, which is essential for analyzing variations throughout the day and for building predictive models of potential internet disruptions.
+</details>
 
-35. A company wants to build an ML model to detect abnormal patterns in sensor data. The company does not have labeled data for training.     Which ML method will meet these requirements?
-    - A. Linear regression
-    - B. Classification
-    - C. Decision tree
-    - D. Autoencoders
+> [!NOTE]
+> **35.** A company wants to build an ML model to detect abnormal patterns in sensor data. The company does not have labeled data for training.     Which ML method will meet these requirements?
+>
+> - A. Linear regression
+> - B. Classification
+> - C. Decision tree
+> - D. Autoencoders
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: Autoencoders are a type of unsupervised learning method used to detect abnormal patterns (anomalies) in sensor data when labeled data is not available. They learn to reconstruct normal patterns, making deviations (anomalies) easily detectable.
-    </details>
+  Explanation: Autoencoders are a type of unsupervised learning method used to detect abnormal patterns (anomalies) in sensor data when labeled data is not available. They learn to reconstruct normal patterns, making deviations (anomalies) easily detectable.
+</details>
 
 36. A company uses Amazon Bedrock to implement a generative AI assistant on a website. The AI assistant helps customers with product recommendations and purchasing decisions. The company wants to measure the direct impact of the AI assistant on sales performance. Which metric will meet these requirements?
     - A. The conversion rate of customers who purchase products after AI assistant interactions.

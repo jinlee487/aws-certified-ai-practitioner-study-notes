@@ -12,17 +12,19 @@
       Explanation: Amazon Bedrock Guardrails provide configurable safeguards that enforce standard safety rules on large language models (LLMs) with minimal effort, making it easy to ensure safe and compliant AI application development.
     </details>
 
-2. A company is exploring Amazon Nova models in Amazon Bedrock. The company needs a multimodal model that supports multiple languages. Which Nova model will meet these requirements MOST cost-effectively?
-    - A. Nova Lite
-    - B. Nova Pro
-    - C. Nova Canvas
-    - D. Nova Reel
+> [!NOTE]
+> **2.** A company is exploring Amazon Nova models in Amazon Bedrock. The company needs a multimodal model that supports multiple languages. Which Nova model will meet these requirements MOST cost-effectively?
+>
+> - A. Nova Lite
+> - B. Nova Pro
+> - C. Nova Canvas
+> - D. Nova Reel
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: A
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: A
 
-      Explanation:   Nova Lite is a multimodal model in Amazon Bedrock that supports multiple languages andis designed the most cost-effective option among the Nova models, making it suitable for organizations seeking efficient, scalable, and economical
-    </details>
+  Explanation:   Nova Lite is a multimodal model in Amazon Bedrock that supports multiple languages andis designed the most cost-effective option among the Nova models, making it suitable for organizations seeking efficient, scalable, and economical
+</details>
 
 3. A company is building a new generative AI chatbot. The chatbot uses an Amazon Bedrock foundation model (FM) to generate responses. During testing, the company notices that the chatbot is prone to prompt injection attacks. What can the company do to secure the chatbot with the LEAST implementation effort?
     - A. Fine-tune the FM to avoid harmful responses.
@@ -96,17 +98,19 @@
       Explanation: Batch transform is the most cost-effective inference method for analyzing large amounts of data collected over a period (such as monthly patient data). It allows you to process and generate reports on all historical data in batches, rather than incurring the higher costs of real-time or serverless inference.
     </details>
 
-9. A company acquires International Organization for Standardization (ISO) accreditation to manage AI risks and to use AI responsibly. What does this accreditation reflect about the company?
-    - A. All members of the company are ISO certified.
-    - B. All AI systems that the company uses are ISO certified.
-    - C. All AI application team members are ISO certified.
-    - D. The company’s development framework is ISO certified.
+> [!NOTE]
+> **9.** A company acquires International Organization for Standardization (ISO) accreditation to manage AI risks and to use AI responsibly. What does this accreditation reflect about the company?
+>
+> - A. All members of the company are ISO certified.
+> - B. All AI systems that the company uses are ISO certified.
+> - C. All AI application team members are ISO certified.
+> - D. The company’s development framework is ISO certified.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: D
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: D
 
-      Explanation: ISO accreditation for managing AI risks means that the company’s development processes, controls, and frameworks for AI are certified to meet ISO standards. It does not certify individual employees or AI systems, but rather the organizational framework and practices.
-    </details>
+  Explanation: ISO accreditation for managing AI risks means that the company’s development processes, controls, and frameworks for AI are certified to meet ISO standards. It does not certify individual employees or AI systems, but rather the organizational framework and practices.
+</details>
 
 10. A company is developing an ML model to predict heart disease risk. The model uses patient data, such as age, cholesterol, blood pressure, smoking status, and exercise habits. The dataset includes a target value that indicates whether a patient has heart disease. Which ML technique will meet these requirements?
     - A. Unsupervised learning
@@ -132,29 +136,33 @@
       Explanation: Data retention refers to the policies and practices that define how long data is stored and when it should be deleted, ensuring compliance with organizational guidelines and regulatory requirements.
     </details>
 
-12. A company needs to apply numerical transformations to a set of images to transpose and rotate the images. Which solution will meet these requirements in the MOST operationally efficient way?
-    - A. Create a deep neural network by using the images as input.
-    - B. Create an AWS Lambda function to perform the transformations.
-    - C. Use an Amazon Bedrock large language model (LLM) with a high temperature.
-    - D. Use AWS Glue Data Quality to make corrections to each image.
+> [!NOTE]
+> **12.** A company needs to apply numerical transformations to a set of images to transpose and rotate the images. Which solution will meet these requirements in the MOST operationally efficient way?
+>
+> - A. Create a deep neural network by using the images as input.
+> - B. Create an AWS Lambda function to perform the transformations.
+> - C. Use an Amazon Bedrock large language model (LLM) with a high temperature.
+> - D. Use AWS Glue Data Quality to make corrections to each image.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: B
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: B
 
-      Explanation: An AWS Lambda function can efficiently perform numerical image transformations such as transposing and rotating images at scale without the need to build or train a neural network, making it the most operationally efficient solution.
-    </details>
+  Explanation: An AWS Lambda function can efficiently perform numerical image transformations such as transposing and rotating images at scale without the need to build or train a neural network, making it the most operationally efficient solution.
+</details>
 
-13. An AI practitioner is writing software code. The AI practitioner wants to quickly develop a test case and create documentation for the code. Which solution will meet these requirements with the LEAST effort?
-    - A. Upload the code to an online coding assistant.
-    - B. Develop an application to use foundation models (FMs).
-    - C. Use Amazon Q Developer in an integrated development environment (IDE).
-    - D. Research and write test cases. Then, create test cases and add documentation.
+> [!NOTE]
+> **13.** An AI practitioner is writing software code. The AI practitioner wants to quickly develop a test case and create documentation for the code. Which solution will meet these requirements with the LEAST effort?
+>
+> - A. Upload the code to an online coding assistant.
+> - B. Develop an application to use foundation models (FMs).
+> - C. Use Amazon Q Developer in an integrated development environment (IDE).
+> - D. Research and write test cases. Then, create test cases and add documentation.
 
-    <details markdown=1><summary markdown="span">Answer</summary>
-      Correct answer: C
+<details markdown=1><summary markdown="span">Answer</summary>
+  Correct answer: C
 
-      Explanation: Amazon Q Developer integrated with an IDE can automatically generate test cases and create documentation for code, minimizing manual effort and accelerating development compared with building custom solutions or manual research.
-    </details>
+  Explanation: Amazon Q Developer integrated with an IDE can automatically generate test cases and create documentation for code, minimizing manual effort and accelerating development compared with building custom solutions or manual research.
+</details>
 
 14. A company is developing a generative AI application to automatically generate product descriptions for an ecommerce website. The product descriptions must consist of paragraphs of text that are consistent in style and tone. The application must generate thousands of unique descriptions each day. Which type of generative model will meet these requirements?
     - A. A variational autoencoder (VAE) model
@@ -301,18 +309,20 @@
 
     </details>
 
-24. What is the main advantage of using pre-trained models?
-    - A. They always perform better than custom models
-    - B. They require less computational resources to train
-    - C. They are always more accurate
-    - D. They can be used immediately without any training data
+> [!NOTE]
+> **24.** What is the main advantage of using pre-trained models?
+>
+> - A. They always perform better than custom models
+> - B. They require less computational resources to train
+> - C. They are always more accurate
+> - D. They can be used immediately without any training data
 
-    <details markdown=1><summary markdown="span">Answer</summary>
+<details markdown=1><summary markdown="span">Answer</summary>
 
-      Correct answer: D
+  Correct answer: D
 
-      Explanation: Pre-trained models can be used immediately without training data, which is their main advantage. The study guide mentions pre-trained models as a source of ML models.
-    </details>
+  Explanation: Pre-trained models can be used immediately without training data, which is their main advantage. The study guide mentions pre-trained models as a source of ML models.
+</details>
 
 25. Which AWS service is best suited for automating the process of identifying the best hyperparameters for a model?
     - A. Amazon SageMaker Autopilot
@@ -341,18 +351,20 @@
       Explanation: MLOps stands for Machine Learning Operations. The study guide mentions MLOps and its fundamental concepts
     </details>
 
-27. Which of the following is NOT a typical business metric for evaluating ML models?
-    - A. Cost per user
-    - B. Development costs
-    - C. Customer feedback
-    - D. F1 score
+> [!NOTE]
+> **27.** Which of the following is NOT a typical business metric for evaluating ML models?
+>
+> - A. Cost per user
+> - B. Development costs
+> - C. Customer feedback
+> - D. F1 score
 
-    <details markdown=1><summary markdown="span">Answer</summary>
+<details markdown=1><summary markdown="span">Answer</summary>
 
-      Correct answer: D
+  Correct answer: D
 
-      Explanation: F1 score is a **model performance metric**, not a business metric. Typical business metrics include Cost per user, Development costs, and Customer feedback, which relate to real-world impact rather than prediction quality.
-    </details>
+  Explanation: F1 score is a **model performance metric**, not a business metric. Typical business metrics include Cost per user, Development costs, and Customer feedback, which relate to real-world impact rather than prediction quality.
+</details>
 
 28. Which of the following are considered business metrics for AI model evaluation? (Choose 2)
     - A. Precision score
@@ -577,18 +589,20 @@
       Explanation: The foundation model lifecycle typically includes data selection, pre-training, fine-tuning or customization, evaluation, and deployment. Marketing is a business activity and not part of the technical lifecycle of developing and managing a foundation model.
     </details>
 
-45. What is the primary advantage of using AWS generative AI services for building applications?
-    - A. They are always free
-    - B. They provide a lower barrier to entry
-    - C. They guarantee 100% accuracy
-    - D. They eliminate the need for any coding
+> [!NOTE]
+> **45.** What is the primary advantage of using AWS generative AI services for building applications?
+>
+> - A. They are always free
+> - B. They provide a lower barrier to entry
+> - C. They guarantee 100% accuracy
+> - D. They eliminate the need for any coding
 
-    <details markdown=1><summary markdown="span">Answer</summary>
+<details markdown=1><summary markdown="span">Answer</summary>
 
-      Correct answer: B
+  Correct answer: B
 
-      Explanation: AWS generative AI services reduce the complexity of building AI solutions by providing managed infrastructure, pre-trained foundation models, and APIs. This lowers the barrier to entry by removing the need to build and train large models from scratch while still allowing customization and scalability.
-    </details>
+  Explanation: AWS generative AI services reduce the complexity of building AI solutions by providing managed infrastructure, pre-trained foundation models, and APIs. This lowers the barrier to entry by removing the need to build and train large models from scratch while still allowing customization and scalability.
+</details>
 
 46. What is prompt engineering in the context of generative AI?
     - A. A method of hardware optimization
